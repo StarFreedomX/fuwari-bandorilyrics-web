@@ -84,6 +84,7 @@ export type BlogSongData = {
 	description: string;
 	tags: string[];
 	band: string;
+	lyrics: string;
 	image?: string;
 	category?: string;
 	prevTitle?: string;

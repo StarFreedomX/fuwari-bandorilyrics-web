@@ -1,0 +1,13 @@
+---
+import { tranRuby } from "../../plugins/songs/tran-ruby";
+const lyrics = Astro.props.lyrics;
+//console.log(lyrics);
+---
+
+<h2>歌词</h2>
+
+<span>本段落中所使用的歌词，其著作权属于原著作权人，仅以介绍为目的引用。</span><br/>
+
+<div set:html={tranRuby(lyrics)}></div>
+
+

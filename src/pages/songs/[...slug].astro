@@ -2,6 +2,7 @@
 import path from "node:path";
 import License from "@components/misc/License.astro";
 import Markdown from "@components/misc/Markdown.astro";
+import Lyrics from "@components/songs/Lyrics.astro"
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
@@ -104,6 +105,7 @@ const jsonLd = {
 
     <Markdown class="mb-6 markdown-content onload-animation">
     <Content />
+    <Lyrics lyrics={entry.data.lyrics}>
     </Markdown>
 
     {licenseConfig.enable && <License title={entry.data.title} slug={entry.slug} pubDate={entry.data.published} band={entry.data.band} class="mb-6 rounded-xl license-container onload-animation"></License>}

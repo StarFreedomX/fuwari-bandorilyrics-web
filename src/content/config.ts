@@ -10,6 +10,7 @@ const songsCollection = defineCollection({
 		tags: z.array(z.string()).optional().default([]),
 		category: z.string().optional().nullable().default(""),
 		band: z.string(),
+		lyrics: z.string().optional().default(""),
 		lang: z.string().optional().default(""),
 
 		prevTitle: z.string().default(""),
