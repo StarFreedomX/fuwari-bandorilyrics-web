@@ -9,6 +9,7 @@ const songsCollection = defineCollection({
 		image: z.string().optional().default(""),
 		tags: z.array(z.string()).optional().default([]),
 		category: z.string().optional().nullable().default(""),
+		band: z.string(),
 		lang: z.string().optional().default(""),
 
 		prevTitle: z.string().default(""),

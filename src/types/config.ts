@@ -9,12 +9,6 @@ export type SiteConfig = {
 		| "zh_CN"
 		| "zh_TW"
 		| "ja"
-		| "ko"
-		| "es"
-		| "th"
-		| "vi"
-		| "tr"
-		| "id";
 
 	themeColor: {
 		hue: number;
@@ -48,6 +42,7 @@ export enum LinkPreset {
 	Home = 0,
 	Archive = 1,
 	About = 2,
+	Tool = 3,
 }
 
 export type NavBarLink = {
@@ -88,6 +83,7 @@ export type BlogSongData = {
 	published: Date;
 	description: string;
 	tags: string[];
+	band: string;
 	image?: string;
 	category?: string;
 	prevTitle?: string;

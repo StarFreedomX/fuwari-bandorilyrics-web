@@ -1,7 +1,7 @@
 # 关于
 
 
-::github{repo="saicaca/fuwari"}
+::github{repo="StarFreedomX/fuwari-bandorilyrics-web"}
 
 > ### 鸣谢
 > - 网页修改自模板 [Fuwari](https://github.com/saicaca/fuwari)
