@@ -1,5 +1,5 @@
 import rss from "@astrojs/rss";
-import { getSortedPosts } from "@utils/content-utils";
+import { getSortedSongs } from "@utils/content-utils";
 import { url } from "@utils/url-utils";
 import type { APIContext } from "astro";
 import MarkdownIt from "markdown-it";
@@ -17,21 +17,21 @@ function stripInvalidXmlChars(str: string): string {
 }
 
 export async function GET(context: APIContext) {
-	const blog = await getSortedPosts();
+	const blog = await getSortedSongs();
 
 	return rss({
 		title: siteConfig.title,
 		description: siteConfig.subtitle || "No description",
 		site: context.site ?? "https://fuwari.vercel.app",
-		items: blog.map((post) => {
+		items: blog.map((song) => {
 			const content =
-				typeof post.body === "string" ? post.body : String(post.body || "");
+				typeof song.body === "string" ? song.body : String(song.body || "");
 			const cleanedContent = stripInvalidXmlChars(content);
 			return {
-				title: post.data.title,
-				pubDate: post.data.published,
-				description: post.data.description || "",
-				link: url(`/posts/${post.slug}/`),
+				title: song.data.title,
+				pubDate: song.data.published,
+				description: song.data.description || "",
+				link: url(`/songs/${song.slug}/`),
 				content: sanitizeHtml(parser.render(cleanedContent), {
 					allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
 				}),
