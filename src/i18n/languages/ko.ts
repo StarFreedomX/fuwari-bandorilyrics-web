@@ -9,7 +9,7 @@ export const ko: Translation = {
 
 	[Key.tags]: "태그",
 	[Key.categories]: "카테고리",
-	[Key.recentPosts]: "최근 게시물",
+	[Key.recentSongs]: "최근 게시물",
 
 	[Key.comments]: "댓글",
 
@@ -21,8 +21,8 @@ export const ko: Translation = {
 	[Key.wordsCount]: "단어",
 	[Key.minuteCount]: "분",
 	[Key.minutesCount]: "분",
-	[Key.postCount]: "게시물",
-	[Key.postsCount]: "게시물",
+	[Key.songCount]: "게시물",
+	[Key.songsCount]: "게시물",
 
 	[Key.themeColor]: "테마 색상",
 

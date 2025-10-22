@@ -82,13 +82,12 @@ export type LIGHT_DARK_MODE =
 	| typeof DARK_MODE
 	| typeof AUTO_MODE;
 
-export type BlogPostData = {
+export type BlogSongData = {
 	body: string;
 	title: string;
 	published: Date;
 	description: string;
 	tags: string[];
-	draft?: boolean;
 	image?: string;
 	category?: string;
 	prevTitle?: string;

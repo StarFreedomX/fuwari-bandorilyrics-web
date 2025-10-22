@@ -9,7 +9,7 @@ export const zh_CN: Translation = {
 
 	[Key.tags]: "标签",
 	[Key.categories]: "分类",
-	[Key.recentPosts]: "最新文章",
+	[Key.recentSongs]: "最新歌曲",
 
 	[Key.comments]: "评论",
 
@@ -21,8 +21,8 @@ export const zh_CN: Translation = {
 	[Key.wordsCount]: "字",
 	[Key.minuteCount]: "分钟",
 	[Key.minutesCount]: "分钟",
-	[Key.postCount]: "篇文章",
-	[Key.postsCount]: "篇文章",
+	[Key.songCount]: "首歌曲",
+	[Key.songsCount]: "首歌曲",
 
 	[Key.themeColor]: "主题色",
 

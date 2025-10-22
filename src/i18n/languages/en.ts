@@ -9,7 +9,7 @@ export const en: Translation = {
 
 	[Key.tags]: "Tags",
 	[Key.categories]: "Categories",
-	[Key.recentPosts]: "Recent Posts",
+	[Key.recentSongs]: "Recent Songs",
 
 	[Key.comments]: "Comments",
 
@@ -21,8 +21,8 @@ export const en: Translation = {
 	[Key.wordsCount]: "words",
 	[Key.minuteCount]: "minute",
 	[Key.minutesCount]: "minutes",
-	[Key.postCount]: "post",
-	[Key.postsCount]: "posts",
+	[Key.songCount]: "post",
+	[Key.songsCount]: "posts",
 
 	[Key.themeColor]: "Theme Color",
 

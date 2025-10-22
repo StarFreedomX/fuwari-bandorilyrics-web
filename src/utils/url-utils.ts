@@ -12,8 +12,8 @@ function joinUrl(...parts: string[]): string {
 	return joined.replace(/\/+/g, "/");
 }
 
-export function getPostUrlBySlug(slug: string): string {
-	return url(`/posts/${slug}/`);
+export function getSongUrlBySlug(slug: string): string {
+	return url(`/songs/${slug}/`);
 }
 
 export function getTagUrl(tag: string): string {

@@ -9,7 +9,7 @@ export const id: Translation = {
 
 	[Key.tags]: "Tag",
 	[Key.categories]: "Kategori",
-	[Key.recentPosts]: "Postingan Terbaru",
+	[Key.recentSongs]: "Postingan Terbaru",
 
 	[Key.comments]: "Komentar",
 
@@ -21,8 +21,8 @@ export const id: Translation = {
 	[Key.wordsCount]: "kata",
 	[Key.minuteCount]: "menit",
 	[Key.minutesCount]: "menit",
-	[Key.postCount]: "postingan",
-	[Key.postsCount]: "postingan",
+	[Key.songCount]: "postingan",
+	[Key.songsCount]: "postingan",
 
 	[Key.themeColor]: "Warna Tema",
 

@@ -9,7 +9,7 @@ export const th: Translation = {
 
 	[Key.tags]: "ป้ายกำกับ",
 	[Key.categories]: "หมวดหมู่",
-	[Key.recentPosts]: "โพสต์ล่าสุด",
+	[Key.recentSongs]: "โพสต์ล่าสุด",
 
 	[Key.comments]: "ความคิดเห็น",
 
@@ -21,8 +21,8 @@ export const th: Translation = {
 	[Key.wordsCount]: "คำ",
 	[Key.minuteCount]: "นาที",
 	[Key.minutesCount]: "นาที",
-	[Key.postCount]: "โพสต์",
-	[Key.postsCount]: "โพสต์",
+	[Key.songCount]: "โพสต์",
+	[Key.songsCount]: "โพสต์",
 
 	[Key.themeColor]: "สีของธีม",
 

@@ -3,18 +3,18 @@ import { onMount } from "svelte";
 
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
-import { getPostUrlBySlug } from "../utils/url-utils";
+import { getSongUrlBySlug } from "../utils/url-utils";
 
 export let tags: string[];
 export let categories: string[];
-export let sortedPosts: Post[] = [];
+export let sortedSongs: Song[] = [];
 
 const params = new URLSearchParams(window.location.search);
 tags = params.has("tag") ? params.getAll("tag") : [];
 categories = params.has("category") ? params.getAll("category") : [];
 const uncategorized = params.get("uncategorized");
 
-interface Post {
+interface Song {
 	slug: string;
 	data: {
 		title: string;
@@ -26,7 +26,7 @@ interface Post {
 
 interface Group {
 	year: number;
-	posts: Post[];
+	songs: Song[];
 }
 
 let groups: Group[] = [];
@@ -42,46 +42,45 @@ function formatTag(tagList: string[]) {
 }
 
 onMount(async () => {
-	let filteredPosts: Post[] = sortedPosts;
-
+	let filteredSongs: Song[] = sortedSongs;
 	if (tags.length > 0) {
-		filteredPosts = filteredPosts.filter(
-			(post) =>
-				Array.isArray(post.data.tags) &&
-				post.data.tags.some((tag) => tags.includes(tag)),
+		filteredSongs = filteredSongs.filter(
+			(song) =>
+				Array.isArray(song.data.tags) &&
+				song.data.tags.some((tag) => tags.includes(tag)),
 		);
 	}
 
 	if (categories.length > 0) {
-		filteredPosts = filteredPosts.filter(
-			(post) => post.data.category && categories.includes(post.data.category),
+		filteredSongs = filteredSongs.filter(
+			(song) => song.data.category && categories.includes(song.data.category),
 		);
 	}
 
 	if (uncategorized) {
-		filteredPosts = filteredPosts.filter((post) => !post.data.category);
+		filteredSongs = filteredSongs.filter((song) => !song.data.category);
 	}
 
-	const grouped = filteredPosts.reduce(
-		(acc, post) => {
-			const year = post.data.published.getFullYear();
+	const grouped = filteredSongs.reduce(
+		(acc, song) => {
+			const year = song.data.published.getFullYear();
 			if (!acc[year]) {
 				acc[year] = [];
 			}
-			acc[year].push(post);
+			acc[year].push(song);
 			return acc;
 		},
-		{} as Record<number, Post[]>,
+		{} as Record<number, Song[]>,
 	);
 
-	const groupedPostsArray = Object.keys(grouped).map((yearStr) => ({
+	const groupedSongsArray = Object.keys(grouped).map((yearStr) => ({
 		year: Number.parseInt(yearStr, 10),
-		posts: grouped[Number.parseInt(yearStr, 10)],
+		songs: grouped[Number.parseInt(yearStr, 10)],
 	}));
 
-	groupedPostsArray.sort((a, b) => b.year - a.year);
+	groupedSongsArray.sort((a, b) => b.year - a.year);
 
-	groups = groupedPostsArray;
+	groups = groupedSongsArray;
 });
 </script>
 
@@ -99,20 +98,20 @@ onMount(async () => {
                     ></div>
                 </div>
                 <div class="w-[70%] md:w-[80%] transition text-left text-50">
-                    {group.posts.length} {i18n(group.posts.length === 1 ? I18nKey.postCount : I18nKey.postsCount)}
+                    {group.songs.length} {i18n(group.songs.length === 1 ? I18nKey.songCount : I18nKey.songsCount)}
                 </div>
             </div>
 
-            {#each group.posts as post}
+            {#each group.songs as song}
                 <a
-                        href={getPostUrlBySlug(post.slug)}
-                        aria-label={post.data.title}
+                        href={getSongUrlBySlug(song.slug)}
+                        aria-label={song.data.title}
                         class="group btn-plain !block h-10 w-full rounded-lg hover:text-[initial]"
                 >
                     <div class="flex flex-row justify-start items-center h-full">
                         <!-- date -->
                         <div class="w-[15%] md:w-[10%] transition text-sm text-right text-50">
-                            {formatDate(post.data.published)}
+                            {formatDate(song.data.published)}
                         </div>
 
                         <!-- dot and line -->
@@ -127,13 +126,13 @@ onMount(async () => {
                             ></div>
                         </div>
 
-                        <!-- post title -->
+                        <!-- song title -->
                         <div
                                 class="w-[70%] md:max-w-[65%] md:w-[65%] text-left font-bold
                      group-hover:translate-x-1 transition-all group-hover:text-[var(--primary)]
                      text-75 pr-8 whitespace-nowrap overflow-ellipsis overflow-hidden"
                         >
-                            {post.data.title}
+                            {song.data.title}
                         </div>
 
                         <!-- tag list -->
@@ -141,7 +140,7 @@ onMount(async () => {
                                 class="hidden md:block md:w-[15%] text-left text-sm transition
                      whitespace-nowrap overflow-ellipsis overflow-hidden text-30"
                         >
-                            {formatTag(post.data.tags)}
+                            {formatTag(song.data.tags)}
                         </div>
                     </div>
                 </a>

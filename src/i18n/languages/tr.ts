@@ -9,7 +9,7 @@ export const tr: Translation = {
 
 	[Key.tags]: "Taglar",
 	[Key.categories]: "Katagoriler",
-	[Key.recentPosts]: "Son Paylaşımlar",
+	[Key.recentSongs]: "Son Paylaşımlar",
 
 	[Key.comments]: "Yorumlar",
 
@@ -21,8 +21,8 @@ export const tr: Translation = {
 	[Key.wordsCount]: "kelime",
 	[Key.minuteCount]: "dakika",
 	[Key.minutesCount]: "dakika",
-	[Key.postCount]: "gönderi",
-	[Key.postsCount]: "gönderiler",
+	[Key.songCount]: "gönderi",
+	[Key.songsCount]: "gönderiler",
 
 	[Key.themeColor]: "Tema Rengi",
 

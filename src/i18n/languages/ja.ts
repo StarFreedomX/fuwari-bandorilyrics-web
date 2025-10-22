@@ -9,7 +9,7 @@ export const ja: Translation = {
 
 	[Key.tags]: "タグ",
 	[Key.categories]: "カテゴリ",
-	[Key.recentPosts]: "最近の投稿",
+	[Key.recentSongs]: "最近の投稿",
 
 	[Key.comments]: "コメント",
 
@@ -21,8 +21,8 @@ export const ja: Translation = {
 	[Key.wordsCount]: "文字",
 	[Key.minuteCount]: "分",
 	[Key.minutesCount]: "分",
-	[Key.postCount]: "件の投稿",
-	[Key.postsCount]: "件の投稿",
+	[Key.songCount]: "件の投稿",
+	[Key.songsCount]: "件の投稿",
 
 	[Key.themeColor]: "テーマカラー",
 
