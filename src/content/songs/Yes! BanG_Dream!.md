@@ -5,13 +5,8 @@ tags: [Poppin'Party, Original, nikokara]
 category: Poppin'Party
 band: Poppin'Party
 lyrics: |
-  <define <main> = <span style="color:#4169E1; text-shadow:0 0 0px #000;">>
-  <define <ksm> = <span style="color:#FF5522; text-shadow:0 0 11px #000;">>
-  <define <ars> = <span style="color:#AA66E1; text-shadow:0 0 1px #000;">>
-  <define <rimi> = <span style="color:#FF54BC; text-shadow:0 0 1px #000;">>
-  <define <tae> = <span style="color:#0176DD; text-shadow:0 0 11px #000;">>
-  <define <saaya> = <span style="color:#FABE06; text-shadow:0 0 1px #000;">>
-  <main>
+  <define <ppp> = <span style="color:#FF3377; text-shadow:0 0 0px #000;">>
+  <ppp>
   さあ、{飛|と}びだそう！{明日|あした}のドア ノックして
   {解|と}き{放|はな}つ {無|む}{敵|てき}で{最|さい}{強|きょう}のうた
   In the name of BanG_Dream！
@@ -23,27 +18,27 @@ lyrics: |
   キミに{会|あ}いにいけるね
   
   {授|じゅ}{業|ぎょう}{中|ちゅう}の{窓|まど}の{向|む}こうに
-  {雲|くも}の{切|き}れ{間|あいだ}まぶしい
+  {雲|くも}の{切|き}れ{間|ま}まぶしい
   きっと もっと
   {晴|は}れた{空|そら}に{会|あ}えるね  SHINE！
   
-  <ksm>いつか{出|で}{会|あ}える{夢|ゆめ}を{信|しん}じて</ksm>
+  いつか{出|で}{会|あ}える{夢|ゆめ}を{信|しん}じて
   ときどきドキドキときめいてる
   ただ{胸|むね}に{秘|ひ}めている
   あふれる{思|おも}いを
   
-  <ars>{踏|ふ}みだすキミを{待|ま}ち{続|つづ}けてる</ars>
+  {踏|ふ}みだすキミを{待|ま}ち{続|つづ}けてる
   ときどきドキドキときめいてる
   catch up！ ( my wish！ )
   jump out！( your wish！)
   fly high！ {勇|ゆう}{気|き}だして
   
   さあ、{飛|と}びだそう {明日|あした}のドア ノックして
-  <rimi>{解|と}き{放|はな}つ {無|む}{敵|てき}で{最|さい}{強|きょう}のうたを！</rimi>
+  {解|と}き{放|はな}つ {無|む}{敵|てき}で{最|さい}{強|きょう}のうたを！
   
   キミだけの
   ホントの{声|こえ}きかせて
-  <tae>{夢|ゆめ}とキミが{出|で}{会|あ}う  メロディ♪</tae>
+  {夢|ゆめ}とキミが{出|で}{会|あ}う  メロディ♪
   In the name of BanG_Dream！
   Yes！ BanG_Dream！
   
@@ -64,8 +59,8 @@ lyrics: |
   
   きらきら{輝|かがや}くキミを{見|み}てる
   ステキなドキドキがとまらない
-  catch up！ my wish！
-  jump out！ your wish！
+  catch up！ ( my wish！ )
+  jump out！ ( your wish！ )
   fly high！ {熱|あつ}くなれる
   
   ねえ、{飛|と}びたとう
@@ -73,7 +68,7 @@ lyrics: |
   {解|と}き{放|はな}つ
   {無|む}{敵|てき}に{最|さい}{高|こう}のうたを！
   
-  <saaya>まっすぐに ホントの{声|こえ}きかせて</saaya>
+  まっすぐに ホントの{声|こえ}きかせて
   {夢|ゆめ}と{歌|うた}を{結|むす}ぶ メロディ♪
   In the name of BanG_Dream！
   Yes！ BanG_Dream！
@@ -84,8 +79,8 @@ lyrics: |
   
   こんな{日|ひ}が{来|く}ることわかってた
   ドキドキときめくキミはいつか
-  catch up！ my wish！
-  jump out！ your wish！
+  catch up！ ( my wish！ )
+  jump out！ ( your wish！ )
   fly high！ {強|つよ}くなれる
   
   さあ、{飛|と}びだそう
@@ -98,7 +93,7 @@ lyrics: |
   {夢|ゆめ}とキミを{繋|つな}ぐ メロディ♪
   In the name of BanG_Dream！
   Yes！ BanG_Dream！
-  </main>
+  </ppp>
 ---
 <summary>
     <a href="https://www.bilibili.com/video/BV16dtVz8EXU/">

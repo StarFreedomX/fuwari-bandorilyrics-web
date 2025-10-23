@@ -1,5 +1,6 @@
 # 关于
 
+本站无法保证内容全部正确，如果有错误，欢迎来下面仓库discussion/issue处提出(或者直接PR)
 
 ::github{repo="StarFreedomX/fuwari-bandorilyrics-web"}
 

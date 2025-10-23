@@ -1,11 +1,15 @@
 export function tranRuby(input: string): string {
     const delAdd = /＋+/g
     const delNum = /\[[0-9]+]/g
-
+    const header: string[] = []
     // 1. 提取所有 <define <tag> = <HTML>> 定义
     const defines = new Map<string, string>();
     input = input.replace(/<define\s+<(\w+)>\s*=\s*(<[^>]+>)\s*>/g, (_, tag, html) => {
         defines.set(tag, html);
+        const match = html.match(/color:#([0-9A-Fa-f]{6})/);
+        if (match) {
+            header.push(`<span style="height:10px;background:#${match[1]};display:inline-block;width:10px"></span> ${html}${tag}${html.replace(/^<(\w+)[^>]*>/, "</$1>")}`);
+        }
         return "";
     });
 
@@ -22,5 +26,5 @@ export function tranRuby(input: string): string {
     }
 
     //console.log(output);
-    return `<br\><div style="white-space: pre-wrap;">${output}</div><br\>`;
+    return `<br\><div style="white-space: pre-wrap;">${header.length ? header.join("  ")+"<br\><br\>":""}${output}</div><br\>`;
 }
