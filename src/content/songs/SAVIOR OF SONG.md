@@ -12,7 +12,7 @@ lyrics: |
   <layer>I look across a raging war
   And feel the steady beating of my heart
   {嵐|あらし}の{前|まえ}の{静|しず}けさに
-  {刃|は}を{振|ふ}り{下|お}ろしていくんだ</layer>
+  {刃|やいば}を{振|ふ}り{下|お}ろしていくんだ</layer>
 
   <ykn>{繰|く}り{返|かえ}し a memory fading {今|いま}も
   {時|じ}{代|だい}を{超|こ}えて I tell a story {響|ひび}く</ykn>
