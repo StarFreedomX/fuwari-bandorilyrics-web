@@ -47,7 +47,7 @@ onMount(async () => {
 		filteredSongs = filteredSongs.filter(
 			(song) =>
 				Array.isArray(song.data.tags) &&
-				song.data.tags.some((tag) => tags.includes(tag)),
+				tags.every((tag) => song.data.tags.includes(tag)),
 		);
 	}
 

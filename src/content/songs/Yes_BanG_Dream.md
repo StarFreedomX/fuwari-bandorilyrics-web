@@ -2,8 +2,10 @@
 title: Yes! BanG_Dream!
 published: 2016-02-24
 tags: [Poppin'Party, Original, nikokara]
+category: Poppin'Party
+band: Poppin'Party
 lyrics: |
-  <define <main> = <div style="color:#4169E1; text-shadow:0 0 0px #000;">>
+  <define <main> = <span style="color:#4169E1; text-shadow:0 0 0px #000;">>
   <define <ksm> = <span style="color:#FF5522; text-shadow:0 0 11px #000;">>
   <define <ars> = <span style="color:#AA66E1; text-shadow:0 0 1px #000;">>
   <define <rimi> = <span style="color:#FF54BC; text-shadow:0 0 1px #000;">>
@@ -97,8 +99,6 @@ lyrics: |
   In the name of BanG_Dream！
   Yes！ BanG_Dream！
   </main>
-category: Poppin'Party
-band: Poppin'Party
 ---
 <summary>
     <a href="https://www.bilibili.com/video/BV16dtVz8EXU/">
