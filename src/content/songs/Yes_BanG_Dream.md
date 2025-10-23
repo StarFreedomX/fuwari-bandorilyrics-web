@@ -95,6 +95,7 @@ lyrics: |
   Yes！ BanG_Dream！
   </ppp>
 ---
+炸梦,是的炸梦,新手村,新手教学
 <summary>
     <a href="https://www.bilibili.com/video/BV16dtVz8EXU/">
         [Bilibili]【纯K投屏/自用】Yes! BanG Dream! - Poppin'Party

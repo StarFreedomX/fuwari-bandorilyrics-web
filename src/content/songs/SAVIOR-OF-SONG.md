@@ -2,12 +2,12 @@
 title: SAVIOR OF SONG
 published: 2021-02-24
 tags: [Roselia, RAISE A SUILEN, Cover, nikokara]
-category: Other
+category: Others
 band: RAISE A SUILEN×友希那
 lyrics: |
-  <define <ykn> = <span style="color:#881188">>
-  <define <layer> = <span style="color:#CC0000">>
-  <define <chuchu> = <span style="color:#33CCFF">>
+  <define show <ykn> = <span style="color:#881188">>
+  <define show <layer> = <span style="color:#CC0000">>
+  <define show <chuchu> = <span style="color:#33CCFF">>
 
   <layer>I look across a raging war
   And feel the steady beating of my heart
@@ -94,7 +94,9 @@ lyrics: |
   <layer>{導|みちび}き{出|だ}すアルぺジオ</layer>
   Savior of Song
   A Savior of Song
+
 ---
+SOS,sos,苍蓝钢铁,效率,救救
 <summary>
     <a href="https://www.bilibili.com/video/BV1Ah9HY6E3Y/">
         [Bilibili]【ニコカラ】RAISE A SUILENx友希那 「SAVIOR OF SONG 」
