@@ -1,15 +1,16 @@
 ---
 title: Yes! BanG_Dream!
 published: 2016-02-24
-tags: [Poppin'Party, Original]
+tags: [Poppin'Party, Original, nikokara]
 lyrics: |
-  <define <main> = <div style="color:#4169E1; text-shadow:0 0 1px #000;">>
+  <define <main> = <div style="color:#4169E1; text-shadow:0 0 0px #000;">>
   <define <ksm> = <span style="color:#FF5522; text-shadow:0 0 11px #000;">>
   <define <ars> = <span style="color:#AA66E1; text-shadow:0 0 1px #000;">>
   <define <rimi> = <span style="color:#FF54BC; text-shadow:0 0 1px #000;">>
   <define <tae> = <span style="color:#0176DD; text-shadow:0 0 11px #000;">>
   <define <saaya> = <span style="color:#FABE06; text-shadow:0 0 1px #000;">>
-  <main>さあ、{飛|と}びだそう！{明日|あした}のドア ノックして
+  <main>
+  さあ、{飛|と}びだそう！{明日|あした}のドア ノックして
   {解|と}き{放|はな}つ {無|む}{敵|てき}で{最|さい}{強|きょう}のうた
   In the name of BanG_Dream！
   Yes！ BanG_Dream！
@@ -94,7 +95,8 @@ lyrics: |
   ホントの{声|こえ}きかせたい
   {夢|ゆめ}とキミを{繋|つな}ぐ メロディ♪
   In the name of BanG_Dream！
-  Yes！ BanG_Dream！</main>
+  Yes！ BanG_Dream！
+  </main>
 category: Poppin'Party
 band: Poppin'Party
 ---

@@ -110,6 +110,13 @@
     .btn-regular-dark.success {
         @apply bg-[oklch(0.75_0.14_var(--hue))] dark:bg-[oklch(0.75_0.14_var(--hue))]
     }
+    /* 选中状态的 regular 按钮 */
+    .btn-regular.selected {
+        @apply text-white;
+        /* 背景随主题切换 */
+        @apply bg-[var(--primary)];
+        @apply transition;
+    }
 }
 
 .custom-md img, #song-cover img {
