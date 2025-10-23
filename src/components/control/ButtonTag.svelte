@@ -2,7 +2,7 @@
     import { onMount } from "svelte";
     import { getTagsUrl } from "@utils/url-utils.ts";
 
-    export let size: string | undefined;
+    //export let size: string | undefined;
     export let dot: boolean | undefined;
     export let tagName: string | undefined;
     export let label: string | undefined;
