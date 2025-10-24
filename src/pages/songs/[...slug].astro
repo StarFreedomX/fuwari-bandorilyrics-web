@@ -67,50 +67,50 @@ const jsonLd = {
                     </div>
                 </div>
             </div>
+        
+
+            <!-- title -->
+            <div class="relative onload-animation">
+                <div
+                    data-pagefind-body data-pagefind-weight="10" data-pagefind-meta="title"
+                    class="transition w-full block font-bold mb-3
+                    text-3xl md:text-[2.25rem]/[2.75rem]
+                    text-black/90 dark:text-white/90
+                    md:before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
+                    before:absolute before:top-[0.75rem] before:left-[-1.125rem]
+                    ">
+                    {entry.data.title}
+                </div>
+   		 	</div>
+
+    		<!-- metadata -->
+    		<div class="onload-animation">
+                    <SongMetadata
+                class="mb-5"
+                published={entry.data.published}
+                updated={entry.data.updated}
+                tags={entry.data.tags}
+                category={entry.data.category}
+                ></SongMetadata>
+                {!entry.data.image && <div class="border-[var(--line-divider)] border-dashed border-b-[1px] mb-5"></div>}
+            </div>
+
+            <!-- always show cover as long as it has one -->
+
+            {entry.data.image &&
+                <ImageWrapper id="song-cover" src={entry.data.image} basePath={path.join("content/songs/", getDir(entry.id))} class="mb-8 rounded-xl banner-container onload-animation"/>
+            }
+
+
+            <Markdown class="mb-6 markdown-content onload-animation">
+                <Content />
+                <Lyrics lyrics={entry.data.lyrics} />
+            </Markdown>
+
+            {licenseConfig.enable && <License title={entry.data.title} slug={entry.slug} pubDate={entry.data.published} band={entry.data.band} class="mb-6 rounded-xl license-container onload-animation"></License>}
+
         </div>
     </div>
-
-    <!-- title -->
-    <div class="relative onload-animation">
-        <div
-            data-pagefind-body data-pagefind-weight="10" data-pagefind-meta="title"
-            class="transition w-full block font-bold mb-3
-            text-3xl md:text-[2.25rem]/[2.75rem]
-            text-black/90 dark:text-white/90
-            md:before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
-            before:absolute before:top-[0.75rem] before:left-[-1.125rem]
-            ">
-            {entry.data.title}
-        </div>
-    </div>
-
-    <!-- metadata -->
-    <div class="onload-animation">
-        <SongMetadata
-        class="mb-5"
-        published={entry.data.published}
-        updated={entry.data.updated}
-        tags={entry.data.tags}
-        category={entry.data.category}
-        ></SongMetadata>
-        {!entry.data.image && <div class="border-[var(--line-divider)] border-dashed border-b-[1px] mb-5"></div>}
-    </div>
-
-    <!-- always show cover as long as it has one -->
-
-    {entry.data.image &&
-        <ImageWrapper id="song-cover" src={entry.data.image} basePath={path.join("content/songs/", getDir(entry.id))} class="mb-8 rounded-xl banner-container onload-animation"/>
-    }
-
-
-    <Markdown class="mb-6 markdown-content onload-animation">
-        <Content />
-        <Lyrics lyrics={entry.data.lyrics} />
-    </Markdown>
-
-    {licenseConfig.enable && <License title={entry.data.title} slug={entry.slug} pubDate={entry.data.published} band={entry.data.band} class="mb-6 rounded-xl license-container onload-animation"></License>}
-
-
 
     <div class="flex flex-col md:flex-row justify-between mb-4 gap-4 overflow-hidden w-full">
         <a href={entry.data.nextSlug ? getSongUrlBySlug(entry.data.nextSlug) : "#"}
