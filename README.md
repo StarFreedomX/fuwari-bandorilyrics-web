@@ -30,4 +30,5 @@ lyrics: |
 
 This project is licensed under the MIT License.
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_large&issueType=license)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FStarFreedomX%2Ffuwari-bandorilyrics-web.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FStarFreedomX%2Ffuwari-bandorilyrics-web?ref=badge_large&issueType=license)
+
