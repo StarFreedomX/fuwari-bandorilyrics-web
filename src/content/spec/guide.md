@@ -51,14 +51,23 @@ lyrics: |
 ```
 ### 各字段值介绍
 `title`: 歌曲的标题  
-`published`: 歌曲的发布日期(若为限定公开则填公开日期，若未发布，只有Game ver则写游戏中发布日期)
+`published`: 歌曲的发布日期(若为限定公开则填公开日期，若未发布，只有Game ver则写游戏中发布日期)   
 `tags`: 歌曲相关标签，根据需要填写，建议为:
 > 乐队(只写本企划)+歌曲类型+(Nicokara)+(Lyrics)+(Game Ver)+(联动类型，如holo)+其他  
-> (Nicokara) 用于筛选是否已添加Nicokara的ktv歌词  
-> (Lyrics) 用于筛选是否已添加静态歌词  
-> (Game Ver) 如果只能找到游戏版本，无全曲，则添加此标记
+* (Nicokara) 用于筛选是否已添加Nicokara的ktv歌词  
+* (Lyrics) 用于筛选是否已添加静态歌词  
+* (Game Ver) 如果只能找到游戏版本，无全曲，则添加此标记
 
-`category`: 乐队分类，若不是常规分类请写`others`  
+:::important
+注意，如果翻唱曲由于无BanG Dream!版本的nicokara视频而使用原曲的视频  
+在标签中不要写`Nicokara`而要写`O-Nicokara`
+:::
+:::important
+请尽量和原有的tag保持一致  
+注意`Hello, Happy World!`等带逗号的tag请使用双引号包裹，否则会变为`Hello`和`Happy World!`两个tag
+:::
+
+`category`: 乐队分类，若不是常规分类请写`Others`  
 `band`: 乐队名称，一般按游戏显示为准   
 `lyrics`: 歌词，其格式将在下文中介绍 
 
@@ -131,10 +140,20 @@ lyrics: | <--这个竖线是yaml多行字符串的标记，从下一行开始为
    
 ## 正文部分格式
 正文一般拿来放歌曲别名和B站上(ニコカラ)Nicokara视频的链接，链接格式如下，可以放多个
+若需要进行备注，也可以加入正文中，参考[Hacking to the Gate](/songs/hacking-to-the-gate/)
 ```html
 <summary>
     <a href="https://www.bilibili.com/video/BV16dtVz8EXU/">
         [Bilibili]【纯K投屏/自用】Yes! BanG Dream! - Poppin'Party
     </a>
 </summary>
+```
+:::important
+注意，如果翻唱曲由于无BanG Dream!版本的nicokara视频而使用原曲的视频  
+请悬挂下面的模板，并在标签中不要写`Nicokara`而要写`O-Nicokara`
+:::
+```markdown
+:::note
+BanG Dream!版本暂无卡拉ok视频，此处使用原曲视频
+:::
 ```
