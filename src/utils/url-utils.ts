@@ -23,7 +23,9 @@ export function getTagUrl(tag: string): string {
 
 export function getTagsUrl(tags: string[]): string {
 	if (!tags?.length) return url("/archive/");
-	return url(`/archive/?tag=${(tags.map(tag=>encodeURIComponent(tag.trim())).join("&tag="))}`);
+	return url(
+		`/archive/?tag=${tags.map((tag) => encodeURIComponent(tag.trim())).join("&tag=")}`,
+	);
 }
 
 export function getCategoryUrl(category: string | null): string {
