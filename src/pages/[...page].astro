@@ -1,10 +1,10 @@
 ---
 import type { GetStaticPaths } from "astro";
-import Pagination from "../components/control/Pagination.astro";
-import SongPage from "../components/SongPage.astro";
-import { PAGE_SIZE } from "../constants/constants";
-import MainGridLayout from "../layouts/MainGridLayout.astro";
-import { getSortedSongs } from "../utils/content-utils";
+import Pagination from "@/components/control/Pagination.astro";
+import SongPage from "@/components/SongPage.astro";
+import { PAGE_SIZE } from "@/constants/constants";
+import MainGridLayout from "@/layouts/MainGridLayout.astro";
+import { getSortedSongs } from "@/utils/content-utils";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const allBlogSongs = await getSortedSongs();

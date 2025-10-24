@@ -51,7 +51,7 @@ lyrics: |
 ```
 ### 各字段值介绍
 `title`: 歌曲的标题  
-`published`: 歌曲的发布日期(若未发布，只有Game ver则写游戏中发布日期)
+`published`: 歌曲的发布日期(若为限定公开则填公开日期，若未发布，只有Game ver则写游戏中发布日期)
 `tags`: 歌曲相关标签，根据需要填写，建议为:
 > 乐队(只写本企划)+歌曲类型+(nikokara/no nikokara)+(lyrics/no lyrics)+(联动类型，如holo)+其他  
 > (nikokara/no nikokara) 用于筛选是否已添加nikokara的ktv歌词  
@@ -63,6 +63,9 @@ lyrics: |
 
 ### 歌词部分格式
 歌词作为歌曲信息的一部分，会自动插入到页面底部
+:::tip
+添加歌曲后请前往tool.md删除相应歌曲记录
+:::
 #### 歌词定义
 ```yaml
 lyrics: | <--这个竖线是yaml多行字符串的标记，从下一行开始为yaml字符串的值

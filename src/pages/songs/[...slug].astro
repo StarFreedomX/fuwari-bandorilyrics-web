@@ -10,10 +10,10 @@ import { getSortedSongs } from "@utils/content-utils";
 import { getDir, getSongUrlBySlug } from "@utils/url-utils";
 import { Icon } from "astro-icon/components";
 import { licenseConfig } from "src/config";
-import ImageWrapper from "../../components/misc/ImageWrapper.astro";
-import SongMetadata from "../../components/SongMeta.astro";
-import { profileConfig, siteConfig } from "../../config";
-import { formatDateToYYYYMMDD } from "../../utils/date-utils";
+import ImageWrapper from "@/components/misc/ImageWrapper.astro";
+import SongMetadata from "@/components/SongMeta.astro";
+import { siteConfig } from "@/config";
+import { formatDateToYYYYMMDD } from "@/utils/date-utils";
 
 export async function getStaticPaths() {
 	const blogEntries = await getSortedSongs();
