@@ -1,6 +1,6 @@
 <script lang="ts">
-import { onMount } from "svelte";
 import { getTagsUrl } from "@utils/url-utils.ts";
+import { onMount } from "svelte";
 
 //export let size: string | undefined;
 export let dot: boolean | undefined;

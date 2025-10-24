@@ -7,7 +7,7 @@ export function tranRuby(input: string): string {
 
 	// 1. 提取所有 <define ...> 定义
 	const defines = new Map<string, string>();
-	input = input.replace(
+	let output = input.replace(
 		/<define\s+(show\s+)?<(\w+)>\s*=\s*(<[^>]+>)\s*>/g,
 		(_, show, tag, html) => {
 			defines.set(tag, html);
@@ -27,14 +27,14 @@ export function tranRuby(input: string): string {
 	);
 
 	// 处理假名
-	input = input
+	output = output
 		.replace(delAdd, "")
 		.replace(delNum, "")
 		.replace(delNumTime, "")
 		.replace(delTime, "")
 		.replace("　", " ")
 		.trim();
-	let output = input.replace(
+	output = output.replace(
 		/\{([^|{}]+)\|([^|{}]+)\}/g,
 		"<ruby>$1<rt>$2</rt></ruby>",
 	);
@@ -56,5 +56,5 @@ export function tranRuby(input: string): string {
 		},
 	);
 
-	return `<br\><div style="white-space: pre-wrap;">${header.length ? header.join("  ") + "<br\><br\>" : ""}${output}</div><br\>`;
+	return `<br><div style="white-space: pre-wrap;">${header.length ? `${header.join("  ")}<br><br>` : ""}${output}</div><br>`;
 }

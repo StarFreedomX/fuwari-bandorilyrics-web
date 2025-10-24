@@ -52,9 +52,7 @@ export type Tag = {
 };
 
 export async function getTagList(): Promise<Tag[]> {
-	const allBlogSongs = await getCollection<"songs">("songs", ({ data }) => {
-		return true;
-	});
+	const allBlogSongs = await getCollection<"songs">("songs");
 
 	const countMap: { [key: string]: number } = {};
 	allBlogSongs.forEach((post: { data: { tags: string[] } }) => {
@@ -79,9 +77,7 @@ export type Category = {
 };
 
 export async function getCategoryList(): Promise<Category[]> {
-	const allBlogSongs = await getCollection<"songs">("songs", ({ data }) => {
-		return true;
-	});
+	const allBlogSongs = await getCollection<"songs">("songs");
 	const count: { [key: string]: number } = {};
 	allBlogSongs.forEach((post: { data: { category: string | null } }) => {
 		if (!post.data.category) {
