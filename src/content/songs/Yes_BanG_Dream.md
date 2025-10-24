@@ -1,7 +1,7 @@
 ---
 title: Yes! BanG_Dream!
 published: 2016-02-24
-tags: [Poppin'Party, Original, nikokara]
+tags: [Poppin'Party, Original, nikokara, lyrics]
 category: Poppin'Party
 band: Poppin'Party
 lyrics: |
