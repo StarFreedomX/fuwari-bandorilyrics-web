@@ -23,7 +23,7 @@ const style = Astro.props.style;
 <WidgetLayout name={i18n(I18nKey.categories)} id="categories" isCollapsed={isCollapsed} collapsedHeight={COLLAPSED_HEIGHT}
                 class={className} style={style}
 >
-    {categories.map((c) =>
+    {[{name: "All", count: categories.reduce((sum, c) => sum + c.count, 0), url: "/archive/"},...categories].map((c) =>
         <ButtonLink
             url={c.url}
             badge={String(c.count)}

@@ -117,6 +117,12 @@
         @apply bg-[var(--primary)];
         @apply transition;
     }
+    /* 删除状态的 regular 按钮 */
+    .btn-regular.deleted {
+        @apply text-gray-500;
+        text-shadow:0 0 10px #FFFFFF;
+        text-decoration: line-through;
+    }
 }
 
 .custom-md img, #song-cover img {

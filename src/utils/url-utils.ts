@@ -21,11 +21,20 @@ export function getTagUrl(tag: string): string {
 	return url(`/archive/?tag=${encodeURIComponent(tag.trim())}`);
 }
 
-export function getTagsUrl(tags: string[]): string {
-	if (!tags?.length) return url("/archive/");
-	return url(
-		`/archive/?tag=${tags.map((tag) => encodeURIComponent(tag.trim())).join("&tag=")}`,
-	);
+export function getTagsUrl(nextTags: {
+	tags: string[];
+	noTags: string[];
+}): string {
+	const tagsPart = nextTags?.tags?.length
+		? nextTags.tags.map((tag) => `tag=${encodeURIComponent(tag.trim())}`)
+		: [];
+	const noTagsPart = nextTags?.noTags?.length
+		? nextTags.noTags.map(
+				(noTag) => `noTag=${encodeURIComponent(noTag.trim())}`,
+			)
+		: [];
+	const tagParams = [...tagsPart, ...noTagsPart];
+	return url(`/archive/?${tagParams.join("&")}`);
 }
 
 export function getCategoryUrl(category: string | null): string {

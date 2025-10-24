@@ -1,7 +1,7 @@
 ---
 title: God knows...
 published: 2017-08-17
-tags: [Poppin'Party, Cover, nikokara, no lyrics]
+tags: [Poppin'Party, Cover, Nicokara]
 category: Poppin'Party
 band: Poppin'Party
 lyrics: |

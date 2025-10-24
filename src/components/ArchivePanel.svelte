@@ -6,11 +6,13 @@ import { i18n } from "../i18n/translation";
 import { getSongUrlBySlug } from "../utils/url-utils";
 
 export let tags: string[];
+export let noTags: string[];
 export let categories: string[];
 export let sortedSongs: Song[] = [];
 
 const params = new URLSearchParams(window.location.search);
 tags = params.has("tag") ? params.getAll("tag") : [];
+noTags = params.has("noTag") ? params.getAll("noTag") : [];
 categories = params.has("category") ? params.getAll("category") : [];
 const uncategorized = params.get("uncategorized");
 
@@ -48,6 +50,14 @@ onMount(async () => {
 			(song) =>
 				Array.isArray(song.data.tags) &&
 				tags.every((tag) => song.data.tags.includes(tag)),
+		);
+	}
+
+	if (noTags.length > 0) {
+		filteredSongs = filteredSongs.filter(
+			(song) =>
+				Array.isArray(song.data.tags) &&
+				noTags.every((tag) => !song.data.tags.includes(tag)),
 		);
 	}
 

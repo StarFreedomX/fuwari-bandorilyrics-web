@@ -35,7 +35,7 @@ frontmatter区是由一对`---`围起的`YAML`区域
 ---
 title: Yes! BanG_Dream!
 published: 2016-02-24
-tags: [Poppin'Party, Original, nikokara, lyrics]
+tags: [Poppin'Party, Original, Nicokara, Lyrics]
 category: Poppin'Party
 band: Poppin'Party
 lyrics: |
@@ -53,9 +53,10 @@ lyrics: |
 `title`: 歌曲的标题  
 `published`: 歌曲的发布日期(若为限定公开则填公开日期，若未发布，只有Game ver则写游戏中发布日期)
 `tags`: 歌曲相关标签，根据需要填写，建议为:
-> 乐队(只写本企划)+歌曲类型+(nikokara/no nikokara)+(lyrics/no lyrics)+(联动类型，如holo)+其他  
-> (nikokara/no nikokara) 用于筛选是否已添加nikokara的ktv歌词  
-> (lyrics/no lyrics) 用于筛选是否已添加静态歌词  
+> 乐队(只写本企划)+歌曲类型+(Nicokara)+(Lyrics)+(Game Ver)+(联动类型，如holo)+其他  
+> (Nicokara) 用于筛选是否已添加Nicokara的ktv歌词  
+> (Lyrics) 用于筛选是否已添加静态歌词  
+> (Game Ver) 如果只能找到游戏版本，无全曲，则添加此标记
 
 `category`: 乐队分类，若不是常规分类请写`others`  
 `band`: 乐队名称，一般按游戏显示为准   
@@ -129,7 +130,7 @@ lyrics: | <--这个竖线是yaml多行字符串的标记，从下一行开始为
 ```
    
 ## 正文部分格式
-正文一般拿来放歌曲别名和B站上nikokara视频的链接，链接格式如下，可以放多个
+正文一般拿来放歌曲别名和B站上(ニコカラ)Nicokara视频的链接，链接格式如下，可以放多个
 ```html
 <summary>
     <a href="https://www.bilibili.com/video/BV16dtVz8EXU/">
