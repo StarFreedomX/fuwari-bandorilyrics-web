@@ -142,7 +142,7 @@ lyrics: | <--这个竖线是yaml多行字符串的标记，从下一行开始为
    
 ## 正文部分格式
 正文一般拿来放歌曲别名和B站上(ニコカラ)Nicokara视频的链接，链接格式如下，可以放多个
-若需要进行备注，也可以加入正文中，参考[Hacking to the Gate](/songs/hacking-to-the-gate/)
+若需要进行备注，也可以加入正文中，参考[Hacking to the Gate](/songs/hacking_to_the_gate/)
 ```html
 <summary>
     <a href="https://www.bilibili.com/video/BV16dtVz8EXU/">
