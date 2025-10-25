@@ -1,7 +1,7 @@
 ---
 title: secret base ～君がくれたもの～
 published: 2016-05-01
-tags: [Pastel*Palettes, Cover, O-Nicokara, Game Ver]
+tags: [Pastel*Palettes, Cover, O-Nicokara, Short Ver]
 category: Pastel*Palettes
 band: Pastel*Palettes
 lyrics: |

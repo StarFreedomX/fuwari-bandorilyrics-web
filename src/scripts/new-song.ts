@@ -142,16 +142,17 @@ const songName = await ask(
 );
 const publishDate = await ask("请输入歌曲发布日期(yyyy-MM-dd): ");
 const tags = await ask(
-	"歌曲类型(原创曲输入Original,翻唱曲输入Cover,更多其他类型(如Game Ver, Holo)请直接输入,用英文逗号分隔):\n",
+	"歌曲类型(原创曲输入Original,翻唱曲输入Cover,更多其他类型(如Short Ver, Holo)请直接输入,用英文逗号分隔):\n",
 );
+const nicknames = await ask("请输入歌曲别名: ");
 const band = await ask("请输入歌曲乐队名: ");
 const isNormalBand = bandNames.includes(band);
 let bandTag = band.includes(",") ? `"${band}"` : band;
 if (!isNormalBand) {
 	bandTag = await ask("请输入乐队Tag: ");
 }
-const nicknames = await ask("请输入歌曲别名: ");
-const category = isNormalBand ? band : "Other";
+
+const category = isNormalBand ? band : "Others";
 const nicokaraVideo: { href: string; title: string }[] = [];
 let O_Nicokara = false;
 const S_Nicokara =
@@ -165,8 +166,8 @@ if (tags.includes("Cover")) {
 while (true) {
 	const href = await ask("请输入nicokara视频链接,若无则直接回车: ");
 	if (!href.length) break;
-	const title = await ask("请输入链接展示的标题,若无则直接回车: ");
-	if (!title.length) break;
+	const title = await ask("请输入链接展示的标题,若重新输入链接则直接回车: ");
+	if (!title.length) continue;
 	nicokaraVideo.push({ href, title });
 }
 

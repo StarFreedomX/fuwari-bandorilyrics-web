@@ -55,12 +55,12 @@ lyrics: |
 ```
 ### 各字段值介绍
 `title`: 歌曲的标题  
-`published`: 歌曲的发布日期(若为限定公开则填公开日期，若未发布，只有Game ver则写游戏中发布日期)   
+`published`: 歌曲的发布日期(若为限定公开则填公开日期，若未发布，只有Short ver则写游戏中发布日期)   
 `tags`: 歌曲相关标签，根据需要填写，建议为:
-> 乐队(只写本企划)+歌曲类型+(Nicokara)+(Lyrics)+(Game Ver)+(联动类型，如holo)+其他  
+> 乐队(只写本企划)+歌曲类型+(Nicokara)+(Lyrics)+(Short Ver)+(联动类型，如holo)+其他  
 * (Nicokara) 用于筛选是否已添加Nicokara的ktv歌词  
 * (Lyrics) 用于筛选是否已添加静态歌词  
-* (Game Ver) 如果只能找到游戏版本，无全曲，则添加此标记
+* (Short Ver) 如果邦版只能找到游戏版本，无全曲，则添加此标记
 
 :::important
 注意，如果翻唱曲由于无BanG Dream!版本的nicokara视频而使用原曲的视频  

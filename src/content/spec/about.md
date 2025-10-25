@@ -25,10 +25,8 @@
 * 50 : MOON PRIDE - Pastel*Palettes - 2017/5/23
 * 51 : どきどきSING OUT! - 戸山香澄 - 2017/6/5
 * 52 : ハッピーサマーウェディング - Hello, Happy World! - 2017/6/10
-* 53 : 陽だまりロードナイト - Roselia - 2017/6/21
 * 54 : great escape - Afterglow - 2017/7/25
 * 55 : 紅蓮の弓矢 - Roselia - 2017/6/30
-* 56 : 熱色スターマイン - Roselia - 2017/8/25
 * 57 : 花園電気ギター！！！ - 花園たえ - 2017/7/19
 * 58 : チョコレイトの低音レシピ - 牛込りみ - 2017/8/28
 * 59 : ふわふわ時間 - Pastel*Palettes - 2017/7/31
@@ -36,7 +34,6 @@
 * 61 : 夏のドーン！ - Poppin'Party - 2017/8/10
 * 62 : ひまわりの約束 - Hello, Happy World! - 2017/8/12
 * 63 : The Everlasting Guilty Crown - Roselia - 2017/8/18
-* 64 : 八月のif - Poppin'Party - 2017/8/19
 * 65 : Hey-day狂騒曲（カプリチオ） - Afterglow - 2017/8/29
 * 66 : アスノヨゾラ哨戒班 - Afterglow - 2017/8/31
 * 67 : only my railgun - Poppin'Party - 2017/8/26
@@ -46,12 +43,10 @@
 * 71 : Red fraction - Roselia - 2017/9/25
 * 72 : はなまるぴっぴはよいこだけ - Pastel*Palettes - 2017/9/30
 * 73 : Time Lapse - Poppin'Party - 2017/9/10
-* 74 : 遠い音楽～ハートビート～ - 山吹沙綾 - 2017/10/4
 * 75 : －HEROIC ADVENT－ - Roselia - 2017/10/8
 * 76 : Determination Symphony - Roselia - 2017/10/18
 * 77 : ロメオ - Hello, Happy World! - 2017/10/20
 * 78 : READY STEADY GO - Afterglow - 2017/10/27
-* 79 : 世界は恋に落ちている - Pastel*Palettes - 2017/10/31
 * 81 : 千本桜 - Poppin'Party - 2017/11/19
 * 82 : 恋は渾沌の隷也 - Hello, Happy World! - 2017/11/21
 * 83 : プライド革命 - Afterglow - 2018/1/24
@@ -91,12 +86,9 @@
 * 122 : 二重の虹(ダブル レインボウ) - Poppin'Party - 2018/4/30
 * 123 : ふわふわ☆ゆめいろサンドイッチ - Hello, Happy World! - 2018/4/20
 * 124 : みくみくにしてあげる♪【してやんよ】 - Pastel*Palettes - 2018/4/25
-* 125 : 天下トーイツA to Z☆ - Pastel*Palettes - 2018/4/18
 * 126 : Believe in my existence - Roselia - 2018/5/5
 * 127 : 太陽曰く燃えよカオス - Hello, Happy World! - 2018/5/31
-* 128 : 六兆年と一夜物語 - Roselia - 2018/6/4
 * 129 : Fantastic future - Pastel*Palettes - 2018/6/10
-* 130 : 最高(さあ行こう)！ - Poppin'Party - 2018/6/16
 * 131 : ピコっと！パピっと！！ガルパ☆ピコ！！！ - 香澄×蘭×彩×友希那×こころ - 2018/7/5
 * 132 : ハイファイブ∞あどべんちゃっ - Hello, Happy World! - 2018/7/10
 * 133 : キミの記憶 - Roselia - 2018/7/20
@@ -182,39 +174,31 @@
 * 213 : からくりピエロ - Pastel*Palettes - 2019/8/23
 * 214 : “UNIONS” Road - Roselia - 2019/8/31
 * 215 : アイのシナリオ - Afterglow - 2019/9/18
-* 217 : [FULL] 二重の虹(ダブル レインボウ) - Poppin'Party - 2019/9/10
 * 218 : ファティマ - Roselia - 2019/9/20
 * 219 : Hello! Wink! - Poppin'Party - 2019/9/30
 * 220 : What's the POPIPA!? - Poppin'Party - 2019/10/3
 * 221 : コレカラ - Hello, Happy World! - 2019/10/19
 * 222 : Sasanqua - Afterglow - 2019/10/21
-* 223 : [FULL] ON YOUR MARK - Afterglow - 2019/10/25
 * 224 : 激動 - RAISE A SUILEN - 2019/10/26
 * 225 : ブルーバード - Poppin'Party - 2019/10/31
 * 226 : ゆめゆめグラデーション - Pastel*Palettes - 2019/11/11
 * 227 : Paradisus-Paradoxum - Roselia - 2019/11/20
 * 228 : Stay Alive - Pastel*Palettes - 2019/11/20
-* 229 : [FULL] きゅ〜まい＊flower - Pastel*Palettes - 2019/11/23
 * 230 : おもいでイルミネーション - Hello, Happy World! - 2019/11/30
 * 231 : 全力少年 - Hello, Happy World! - 2019/12/10
 * 232 : イニシャル - Poppin'Party - 2019/12/12
 * 233 : 天ノ弱 - Afterglow - 2019/12/29
 * 234 : White Afternoon - Poppin'Party - 2019/12/24
-* 235 : [FULL] えがお･シング･あ･ソング - Hello, Happy World! - 2019/12/24
 * 236 : 創聖のアクエリオン - Poppin'Party×友希那 - 2019/12/31
 * 237 : GO!!! - Afterglow×こころ - 2020/1/1
 * 238 : 花ハ踊レヤいろはにほ - Pastel*Palettes - 2020/1/2
-* 239 : 夢を撃ち抜く瞬間に！ - Poppin'Party - 2020/1/8
 * 240 : 開けたらDream! - Poppin'Party - 2020/1/10
 * 241 : 甲賀忍法帖 - Roselia - 2020/1/29
 * 242 : Wonderful Sweet! - Pastel*Palettes - 2020/1/31
-* 243 : [FULL] FIRE BIRD - Roselia - 2020/1/23
 * 244 : Step×Step！ - Poppin'Party - 2020/2/7
-* 245 : Song I am. - Roselia - 2020/2/10
 * 246 : ドレミファロンド - Hello, Happy World! - 2020/2/20
 * 247 : EXPOSE ‘Burn out!!!’ - RAISE A SUILEN - 2020/6/10
 * 248 : TWiNKLE CiRCLE - GBP!スペシャルバンド - 2020/2/22
-* 249 : [FULL] キズナミュージック♪ - Poppin'Party - 2020/2/23
 * 250 : Break your desire - Roselia - 2020/2/25
 * 251 : I love your way！ - Afterglow - 2020/2/29
 * 252 : インフェルノ - Afterglow - 2020/3/8
@@ -230,7 +214,6 @@
 * 262 : うぃーきゃん☆フレフレっ！ - Hello, Happy World! - 2020/3/31
 * 263 : ブルームブルーム - Morfonica - 2020/4/10
 * 264 : Winking☆Cheer - Pastel*Palettes - 2020/4/20
-* 265 : ミライトレイン - Poppin'Party - 2020/4/24
 * 266 : Avant-garde HISTORY - Roselia - 2020/4/24
 * 267 : UNION - Poppin'Party - 2020/4/30
 * 268 : 大盛り一丁！ガルパ☆ピコ - 香澄×蘭×彩×友希那×こころ - 2020/5/7
@@ -238,7 +221,6 @@
 * 270 : RED RED RED - Afterglow - 2020/5/29
 * 271 : Blessing Chord - Roselia - 2020/5/31
 * 272 : ヒトリノ夜 - RAISE A SUILEN - 2020/6/10
-* 273 : [原曲] final phase - コラボレーション - 2020/6/19
 * 274 : ノスタルジックレインフォール - Pastel*Palettes - 2020/6/20
 * 275 : final phase - Poppin'Party - 2020/6/30
 * 276 : LEVEL5 -judgelight- - Morfonica - 2020/6/30
@@ -260,7 +242,6 @@
 * 292 : ブリキノダンス - RAISE A SUILEN - 2020/12/26
 * 293 : ONE OF US - Afterglow - 2020/10/10
 * 294 : Photograph - Poppin'Party - 2020/10/29
-* 295 : Nevereverland - Morfonica - 2020/10/7
 * 296 : セツナトリップ - Poppin'Party - 2020/9/30
 * 297 : おジャ魔女カーニバル!! - Hello, Happy World! - 2020/10/31
 * 298 : DANCE! おジャ魔女 - Pastel*Palettes - 2020/10/31
@@ -289,7 +270,6 @@
 * 323 : Synchrogazer - Roselia - 2021/3/21
 * 324 : るんっ♪てぃてぃー！ - Pastel*Palettes - 2021/3/31
 * 325 : EXIST - RAISE A SUILEN - 2021/4/6
-* 326 : Live Beyond!! - Poppin'Party - 2021/4/9
 * 327 : Sonorous - Morfonica - 2021/4/20
 * 328 : Proud of oneself - Roselia - 2021/4/23
 * 329 : V.I.P - Morfonica - 2021/4/29
@@ -314,15 +294,10 @@
 * 348 : 灼熱 Bonfire! - RAISE A SUILEN - 2021/7/31
 * 349 : ここから先は歌にならない - Poppin'Party - 2021/7/3
 * 350 : Singing “OURS” - Roselia - 2021/7/4
-* 351 : DAYS of DASH - Poppin'Party×鈴木このみ - 2021/7/31
 * 352 : COLORFUL BOX - Morfonica - 2021/8/20
-* 353 : 絆色のアンサンブル - Poppin'Party×Pastel*Palettes×Morfonica - 2021/8/20
-* 354 : 夏に閉じこめて - Poppin'Party - 2021/8/22
-* 355 : 競宴Red×Violet - Roselia×Afterglow - 2021/9/3
 * 356 : Trouble Joyful!! - Afterglow - 2021/8/31
 * 357 : ラスハピーポー！ - RAISE A SUILEN×Hello, Happy World! - 2021/8/27
 * 358 : ン・パカマーチ - Hello, Happy World! - 2021/9/10
-* 359 : HELL! or HELL? - RAISE A SUILEN - 2021/9/19
 * 360 : Sacred world - RAISE A SUILEN - 2021/8/29
 * 361 : KING - Roselia - 2021/9/20
 * 362 : きらっ☆と キミフェス！ - Hello, Happy World! - 2021/9/30
@@ -333,7 +308,6 @@
 * 367 : ファンサ - Pastel*Palettes×湊あくあ - 2021/10/22
 * 368 : あの夢をなぞって - Poppin'Party×ときのそら - 2021/10/24
 * 369 : ぼなぺてぃーと♡Ｓ - Hello, Happy World!×白上フブキ - 2021/10/23
-* 370 : パッパレ☆人生！バーン万歳！ - Pastel*Palettes - 2021/10/31
 * 371 : 勇気Limit！ - Poppin'Party - 2021/11/10
 * 372 : Off we go. - Afterglow - 2021/11/20
 * 373 : Our Carol - Roselia - 2021/11/30
@@ -361,7 +335,6 @@
 * 395 : Sparkling Daydream - Pastel*Palettes - 2022/3/18
 * 396 : Brand new Pastel Road！ - Pastel*Palettes - 2022/3/18
 * 397 : Just Awake - RAISE A SUILEN - 2022/2/7
-* 398 : One step at a time - Morfonica - 2022/2/10
 * 399 : Repaint - RAISE A SUILEN - 2022/2/14
 * 400 : CATASTROPHE BANQUET - レイヤ×紗夜×沙綾×ミッシェル×瑠唯 - 2022/2/19
 * 401 : 月光花 - Morfonica - 2022/2/28
@@ -375,7 +348,6 @@
 * 409 : 脳漿炸裂ガール - RAISE A SUILEN - 2022/3/19
 * 410 : 閃光 - Roselia - 2022/3/11
 * 411 : 廻廻奇譚 - Roselia - 2022/3/11
-* 412 : [FULL] CiRCLE THANKS MUSiC♪ - CiRCLE THANKS PARTY！スペシャルバンド - 2022/3/18
 * 413 : DRIVE US CRAZY - RAISE A SUILEN - 2022/3/17
 * 414 : サクラゼンセン - Afterglow - 2022/3/31
 * 415 : Freedom - Poppin'Party×夏希 - 2022/4/10
@@ -410,7 +382,6 @@
 * 444 : abnormalize - Afterglow - 2022/9/12
 * 445 : divine intervention - Morfonica - 2022/9/23
 * 446 : 狂乱 Hey Kids!! - RAISE A SUILEN - 2022/9/21
-* 447 : Moonlight Walk - Poppin'Party - 2022/9/24
 * 448 : Invincible Fighter - RAISE A SUILEN - 2022/9/25
 * 449 : Takin’ my Heart - RAISE A SUILEN - 2022/9/25
 * 450 : スカイクラッドの観測者 - Roselia×いとうかなこ - 2022/9/29
@@ -420,7 +391,6 @@
 * 454 : だから、ひとりじゃない - Pastel*Palettes - 2024/8/10
 * 455 : Nameless Story - Morfonica - 2022/10/29
 * 456 : Storyteller - Hello, Happy World! - 2022/10/29
-* 457 : DEAD HEAT BEAT - RAISE A SUILEN - 2022/11/19
 * 458 : ミックスナッツ - Hello, Happy World! - 2022/11/30
 * 459 : VORACITY - RAISE A SUILEN×MYTH & ROID - 2022/11/30
 * 460 : えがお、あーゆーれでぃ??? - Hello, Happy World! - 2022/12/21
@@ -448,18 +418,12 @@
 * 482 : ダーリンダンス - Hello, Happy World! - 2023/3/19
 * 483 : 神っぽいな - RAISE A SUILEN - 2023/3/20
 * 484 : キズナミュージック♪（3Dライブモード対応） - Poppin'Party - 2023/3/16
-* 485 : Glee! Glee! Glee! - Glitter*Green - 2023/3/15
-* 486 : [超高難易度 新SPECIAL] HELL! or HELL? - RAISE A SUILEN - 2023/3/15
-* 487 : [超高難易度 新SPECIAL] 六兆年と一夜物語 - Roselia - 2023/3/19
 * 488 : Made My Day - Afterglow - 2023/3/25
-* 489 : 迷星叫 - MyGO!!!!! - 2023/4/9
-* 490 : 新しい季節に - Poppin'Party - 2023/4/18
 * 491 : 花呼ぶ声 - kemu feat. 夢ノ結唱 POPY×夢ノ結唱 ROSE - 2023/4/28
 * 492 : Call the shots - Roselia - 2023/5/8
 * 493 : 最強☆ソング - Poppin'Party - 2023/4/29
 * 494 : ヒロイン育成計画 - Poppin'Party - 2023/4/29
 * 495 : DANCING DARING - RAISE A SUILEN - 2023/5/10
-* 496 : 少女レイ - Poppin'Party×ましろ - 2023/4/30
 * 497 : チューリングラブ - Hello, Happy World!×蘭 - 2023/5/1
 * 498 : 踊 - RAISE A SUILEN×友希那 - 2023/5/2
 * 499 : アイウエ - Hello, Happy World! - 2023/5/3
@@ -475,7 +439,6 @@
 * 509 : オドループ - Poppin'Party - 2023/7/10
 * 510 : ペトリコール・オベーション - Afterglow - 2023/7/20
 * 511 : Sunlit Musical - Roselia - 2023/7/29
-* 512 : 壱雫空 - MyGO!!!!! - 2023/6/27
 * 513 : 栞 - MyGO!!!!! - 2023/6/29
 * 514 : QUEEN - Morfonica - 2023/7/14
 * 515 : 碧天伴走 - MyGO!!!!! - 2023/7/27
@@ -494,7 +457,6 @@
 * 528 : 優勝 feat.Afterglow - FLOW - 2023/7/1
 * 529 : チルドレンレコード(Re:boot) - Afterglow - 2023/8/31
 * 530 : 音がえしのセレナーデ - Morfonica - 2023/9/14
-* 531 : Ave Mujica - Ave Mujica - 2025/1/2
 * 532 : 祝福 - Morfonica - 2023/9/8
 * 533 : 可愛くてごめん - Pastel*Palettes 日菜×千聖×麻弥×イヴ - 2023/9/9
 * 534 : エゴロック - Hello, Happy World! - 2023/9/10
@@ -558,9 +520,6 @@
 * 593 : ボッカデラベリタ - RAISE A SUILEN - 2024/3/22
 * 594 : 怪獣の花唄 - Poppin'Party - 2024/3/23
 * 595 : 「僕は...」 - MyGO!!!!! - 2024/4/29
-* 596 : [超高難易度 SPECIAL] SENSENFUKOKU - Afterglow - 2024/3/15
-* 597 : [超高難易度 SPECIAL] HELL! or HELL? - RAISE A SUILEN - 2024/3/23
-* 598 : [超高難易度 SPECIAL] 六兆年と一夜物語 - Roselia - 2024/3/23
 * 599 : トレモロアイズ - Poppin'Party - 2024/3/31
 * 600 : むすんでわらって - Hello, Happy World! - 2024/4/10
 * 601 : 両翼のBrilliance - Morfonica - 2024/4/14
@@ -576,11 +535,9 @@
 * 611 : Glowing After - Afterglow - 2024/5/10
 * 612 : Wreath of Brave - Morfonica - 2024/5/21
 * 613 : ギミー！レボリューション - Hello, Happy World! - 2024/5/31
-* 614 : 雨上がり、キミと - Poppin'Party - 2024/6/11
 * 615 : SOULSOUP - RAISE A SUILEN - 2024/6/20
 * 616 : Sage der Rosen - Roselia - 2024/6/26
 * 617 : ココ☆ナツ - Pastel*Palettes - 2024/6/30
-* 618 : 礎の花冠 - Roselia - 2024/7/10
 * 619 : Listen to Smile! - Hello, Happy World! - 2024/7/21
 * 620 : Surges - Roselia×蘭 - 2024/8/8
 * 621 : With〜きみとわたしたちの物語〜 - Pastel*Palettes - 2024/8/10
@@ -595,7 +552,6 @@
 * 630 : クラクラ - Hello, Happy World! - 2024/9/14
 * 631 : Bling-Bang-Bang-Born - RAISE A SUILEN - 2024/9/15
 * 632 : カゲロウデイズ - Afterglow - 2024/9/16
-* 633 : 雑踏、僕らの街 - MyGO!!!!! - 2024/9/17
 * 634 : 輪舞-revolution - Morfonica - 2024/9/20
 * 635 : 過惰幻 - MyGO!!!!! - 2024/9/27
 * 636 : ティリカモニカリラ - Morfonica - 2024/9/29
@@ -621,7 +577,6 @@
 * 656 : STEP by STEP UP↑↑↑↑ - Poppin'Party - 2025/1/8
 * 657 : 悪魔の子 - Roselia×レイヤ - 2025/1/1
 * 658 : マルカリアンチェイン - 夢ノ結唱 ROSE - 2025/1/2
-* 659 : KiLLKiSS - Ave Mujica - 2025/1/2
 * 660 : Blessing Chord(パラレルver.) - I♡インドア - 2025/1/3
 * 661 : Georgette Me, Georgette You - Ave Mujica - 2025/1/9
 * 662 : JUST THE WAY I AM - RAISE A SUILEN - 2024/12/8
@@ -629,7 +584,6 @@
 * 664 : れっつ・スマイル・すとり〜みんぐっ♪ - Hello, Happy World! - 2025/1/21
 * 665 : Grateful Melting - Roselia - 2025/2/8
 * 666 : 花笑みのデュオ - Afterglow - 2025/2/10
-* 667 : 春日影 - CRYCHIC - 2025/2/13
 * 668 : 音一会 - MyGO!!!!! - 2025/2/19
 * 669 : とっておきAnswer - Poppin'Party - 2025/2/28
 * 670 : Imprisoned XII - Ave Mujica - 2025/3/6
@@ -642,16 +596,13 @@
 * 677 : Reweave - Roselia - 2025/3/20
 * 678 : フィクション - Poppin'Party - 2025/3/21
 * 679 : 第六感 - RAISE A SUILEN - 2025/3/22
-* 680 : だれかの心臓になれたなら - MyGO!!!!! - 2025/3/23
 * 681 : えがおのオーケストラっ！(パラレルver.) - 優雅なティータイムを♪ - 2025/3/24
 * 682 : 八芒星ダンス - Ave Mujica - 2025/3/27
 * 683 : 聿日箋秋 - MyGO!!!!! - 2025/3/29
-* 684 : 焚音打 - MyGO!!!!! - 2025/3/30
 * 685 : 顔 - Ave Mujica - 2025/3/31
 * 686 : 天球(そら)のMúsica - Ave Mujica - 2025/4/1
 * 687 : デイオフ・ラフ・ラブ・サンクス - Pastel*Palettes - 2025/3/31
 * 688 : again - Morfonica - 2025/3/19
-* 689 : [期間限定 SPECIAL]ピコっと！パピっと！！ガルパ☆ピコ！！！ - 香澄×蘭×彩×友希那×こころ - 2025/3/31
 * 690 : Second to None - Roselia - 2025/4/10
 * 691 : やっほー！いっぽ！わんだふぉー！ - Hello, Happy World! - 2025/4/20
 * 692 : Portray Empathy - Morfonica - 2025/5/8
@@ -659,11 +610,9 @@
 * 694 : Y.O.L.O！！！！！(パスパレver.) - Pastel*Palettes - 2025/5/2
 * 695 : Bunny Girl - Afterglow - 2025/5/3
 * 696 : Dazzle the Destiny - Roselia - 2025/5/4
-* 697 : 最高到達点 - Hello, Happy World! - 2025/5/5
 * 698 : 潜在表明 - MyGO!!!!! - 2025/5/6
 * 699 : 雪華は無常に微笑む - 友希那×愛音×りみ×つくし×つぐみ - 2025/5/7
 * 700 : Against the Light - Afterglow - 2025/5/10
-* 701 : Tomorrow’s Door - Poppin'Party - 2025/5/21
 * 702 : 愛唄 - Afterglow - 2025/5/31
 * 703 : Polyphonyscape - Morfonica - 2025/4/29
 * 704 : ロケットサイダー - Poppin'Party - 2025/4/30
@@ -703,5 +652,4 @@
 * 738 : Part of the Life - Afterglow - 2025/9/20
 * 739 : BIBIBABI BRAVER - RAISE A SUILEN - 2025/9/29
 * 740 : 元祖！バンドリちゃんのテーマ - 香澄×蘭×彩×友希那×こころ×ましろ×レイヤ×燈×ドロリス×あられ - 2025/10/2
-* 741 : 世界中の青空をあつめて - Poppin'Party - 2025/10/10
 * 742 : きみCharmin' - Pastel*Palettes - 2025/10/21
