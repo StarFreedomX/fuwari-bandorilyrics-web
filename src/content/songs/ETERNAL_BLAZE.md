@@ -9,7 +9,7 @@ lyrics: |
 永恒火焰,slb,奈叶,eb
 
 :::note
-BanG Dream!版本暂无卡拉ok视频，此处使用原曲视频
+BanG Dream!版本暂无卡拉ok视频，此处使用其他版本视频
 :::
 <summary>
     <a href="https://www.bilibili.com/video/BV1Hxj4zME6y/">

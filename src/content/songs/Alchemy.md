@@ -1,6 +1,6 @@
 ---
 title: Alchemy
-published: 2021-11-10
+published: 2016-05-01
 tags: [Poppin'Party, Cover, Game Ver]
 category: Poppin'Party
 band: Poppin'Party
