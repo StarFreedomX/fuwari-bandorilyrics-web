@@ -55,6 +55,54 @@ export function tranRuby(input: string): string {
 			return `<${tagName}${attrs}>${cleaned}</${tagName}>`;
 		},
 	);
+	// 假设 output 是宏展开后包含 <style> 的字符串
+	const styleRegex = /<style[\s\S]*?<\/style>/gi;
 
-	return `<br><div style="white-space: pre-wrap;">${header.length ? `${header.join("  ")}<br><br>` : ""}${output}</div><br>`;
+	// 提取并移除所有 style
+	const styles = (output.match(styleRegex) || []).join("");
+	output = output.replace(styleRegex, "");
+
+	// 清理正文首尾空白、标签间多余空白、连续空行
+	output = output.replace(/^\s+|\s+$/g, ""); /*.replace(
+		/<([a-zA-Z][\w-]*)([^>]*)>([\s\S]*?)<\/\1>/g,
+		(_, tagName, attrs, innerText) => {
+			// 去掉首尾的空格和换行
+			const cleaned = innerText.replace(/^[\s\r\n]+|[\s\r\n]+$/g, "");
+			return `<${tagName}${attrs}>${cleaned}</${tagName}>`;
+		},
+	)*/ // 去掉最外侧首尾空白;
+
+	return `${pre_style}${styles}<div class="colorful-page" style="white-space: pre-wrap; margin:0;">${
+		header.length ? `${header.join("  ")}<br><br>` : ""
+	}${output}</div>`;
+	//return `<br><div style="white-space: pre-wrap;">${header.length ? `${header.join("  ")}<br><br>` : ""}${output}</div><br>`;
 }
+
+const pre_style = `
+<style>
+    .colorful-page {
+      display: inline-block; /* 关键：保证整个容器是同一个渐变上下文 */
+      background: linear-gradient(90deg, #ff3377, #ffcc33, #33ffcc, #3377ff);
+      -webkit-background-clip: text;
+      white-space: pre-wrap;
+    }
+
+
+    .colorful {
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+    
+      /* ruby 和 rt 继承渐变 */
+      .colorful ruby,
+      .colorful rt,
+      .colorful rb {
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+      }
+  
+      .colorful::selection,
+      .colorful *::selection {
+        background: rgba(255, 255, 255, 0.2); /* 半透明选中背景 */
+      }
+  </style>`;
