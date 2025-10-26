@@ -141,9 +141,18 @@ const songName = await ask(
 	`${orgFileName === fileName ? "" : `已修正为: ${fileName}\n`}请输入歌曲名称: `,
 );
 const publishDate = await ask("请输入歌曲发布日期(yyyy-MM-dd): ");
-const tags = await ask(
-	"歌曲类型(原创曲输入Original,翻唱曲输入Cover,更多其他类型(如Short Ver, Holo)请直接输入,用英文逗号分隔):\n",
-);
+const game_ver =
+	Number(await ask("歌曲本身是否只有Game Ver(默认为否，若是请输入1): ")) === 1;
+let categoryIndex: number;
+do {
+	categoryIndex =
+		Number(
+			await ask(
+				"歌曲类型(默认原创曲Original,若为翻唱曲Cover和合作曲Extra请分别输入1和2): ",
+			),
+		) || 0;
+} while (![0, 1, 2].includes(categoryIndex));
+const category = ["Original", "Cover", "Extra"].at(categoryIndex);
 const nicknames = await ask("请输入歌曲别名: ");
 const band = await ask("请输入歌曲乐队名: ");
 const isNormalBand = bandNames.includes(band);
@@ -152,12 +161,13 @@ if (!isNormalBand) {
 	bandTag = await ask("请输入乐队Tag: ");
 }
 
-const category = isNormalBand ? band : "Others";
 const nicokaraVideo: { href: string; title: string }[] = [];
 let O_Nicokara = false;
 const S_Nicokara =
-	Number(await ask("是否只有短版卡拉ok视频(输入1为是，其他输入为否): ")) === 1;
-if (tags.includes("Cover")) {
+	Number(
+		await ask("是否只有Short Ver卡拉ok视频(输入1为是，其他输入为否): "),
+	) === 1;
+if (categoryIndex >= 1) {
 	O_Nicokara =
 		Number(
 			await ask("该歌曲是否只有其他版本卡拉ok视频(输入1为是，其他输入为否): "),
@@ -194,7 +204,9 @@ if (!fs.existsSync(dirPath)) {
 const content = `---
 title: ${songName}
 published: ${publishDate}
-tags: [${bandTag}, ${tags}${nicokaraVideo.length ? (O_Nicokara ? ", O-Nicokara" : ", Nicokara") : ""}${nicokaraVideo.length && S_Nicokara ? ", S-Nicokara" : ""}]
+tags: [${bandTag}${game_ver ? ", Game Ver" : ""}${
+	nicokaraVideo.length ? (O_Nicokara ? ", O-Nicokara" : ", Nicokara") : ""
+}${nicokaraVideo.length && S_Nicokara ? ", S-Nicokara" : ""}]
 band: ${band}
 category: ${category}
 lyrics: |
@@ -227,4 +239,4 @@ ${nicokaraVideo
 
 fs.writeFileSync(path.join(targetDir, fileName), content);
 
-console.log(`Post ${fullPath} created`);
+console.log(`Song ${fullPath} created`);

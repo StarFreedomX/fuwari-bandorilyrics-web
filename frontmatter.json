@@ -50,16 +50,6 @@
           "title": "category",
           "name": "category",
           "type": "string"
-        },
-        {
-          "title": "draft",
-          "name": "draft",
-          "type": "boolean"
-        },
-        {
-          "title": "language",
-          "name": "language",
-          "type": "string"
         }
       ]
     }

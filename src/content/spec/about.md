@@ -20,7 +20,6 @@
 * 44 : そばかす - Pastel*Palettes - 2017/4/10
 * 46 : Little Busters! - Poppin'Party - 2017/4/24
 * 47 : キミにもらったもの - Poppin'Party - 2017/4/21
-* 48 : 正解はひとつ!じゃない!! - Poppin'Party×グリグリ - 2017/4/30
 * 49 : 天体観測 - Afterglow×香澄 - 2017/5/2
 * 50 : MOON PRIDE - Pastel*Palettes - 2017/5/23
 * 51 : どきどきSING OUT! - 戸山香澄 - 2017/6/5
@@ -31,15 +30,12 @@
 * 58 : チョコレイトの低音レシピ - 牛込りみ - 2017/8/28
 * 59 : ふわふわ時間 - Pastel*Palettes - 2017/7/31
 * 60 : ゆら・ゆらRing-Dong-Dance - Pastel*Palettes - 2017/7/29
-* 61 : 夏のドーン！ - Poppin'Party - 2017/8/10
 * 62 : ひまわりの約束 - Hello, Happy World! - 2017/8/12
 * 63 : The Everlasting Guilty Crown - Roselia - 2017/8/18
 * 65 : Hey-day狂騒曲（カプリチオ） - Afterglow - 2017/8/29
-* 66 : アスノヨゾラ哨戒班 - Afterglow - 2017/8/31
 * 67 : only my railgun - Poppin'Party - 2017/8/26
 * 68 : YAPPY！SCHOOL CARNIVAL☆彡 - Hello, Happy World! - 2017/9/24
 * 69 : せかいのっびのびトレジャー！ - Hello, Happy World! - 2017/9/19
-* 70 : SURVIVOR ねばーぎぶあっぷ！ - Pastel*Palettes - 2017/9/21
 * 71 : Red fraction - Roselia - 2017/9/25
 * 72 : はなまるぴっぴはよいこだけ - Pastel*Palettes - 2017/9/30
 * 73 : Time Lapse - Poppin'Party - 2017/9/10
@@ -66,7 +62,6 @@
 * 97 : Opera of the wasteland - Roselia - 2018/1/22
 * 100 : メランコリック - Poppin'Party - 2018/1/31
 * 101 : SAKURAスキップ - Pastel*Palettes - 2018/2/17
-* 104 : もういちど ルミナス - Pastel*Palettes - 2018/6/20
 * 105 : Shangri-La - Roselia - 2018/2/23
 * 106 : Wonderland Girl - Pastel*Palettes - 2018/2/19
 * 107 : fantastic dreamer - Hello, Happy World! - 2018/2/28
@@ -305,10 +300,6 @@
 * 364 : ピコたるもの、ふぃーばー！ - 香澄×蘭×彩×友希那×こころ×ましろ×レイヤ - 2021/10/7
 * 365 : fly with the night - Morfonica - 2021/10/10
 * 366 : ナカナ イナ カナイ - 花園たえ×レイヤ - 2021/10/29
-* 367 : ファンサ - Pastel*Palettes×湊あくあ - 2021/10/22
-* 368 : あの夢をなぞって - Poppin'Party×ときのそら - 2021/10/24
-* 369 : ぼなぺてぃーと♡Ｓ - Hello, Happy World!×白上フブキ - 2021/10/23
-* 371 : 勇気Limit！ - Poppin'Party - 2021/11/10
 * 372 : Off we go. - Afterglow - 2021/11/20
 * 373 : Our Carol - Roselia - 2021/11/30
 * 374 : Fateful... - Morfonica - 2021/10/19
@@ -318,22 +309,16 @@
 * 378 : COLORS - Afterglow×FLOW - 2021/12/11
 * 379 : Keep the Heat and Fire Yourself Up - RAISE A SUILEN - 2021/12/4
 * 380 : SPARK-AGAIN - Roselia - 2021/12/19
-* 381 : イントロダクション - Poppin'Party - 2021/11/30
 * 382 : 怪物 - Poppin'Party - 2021/11/30
 * 383 : CORUSCATE -DNA- - RAISE A SUILEN - 2021/12/21
 * 384 : ヒトリゴト - Pastel*Palettes×ClariS - 2021/12/31
-* 385 : もういちど ルミナス（コラボver） - ClariS × 丸山彩 from Pastel*Palettes - 2021/12/30
 * 386 : DEPARTURES - RAISE A SUILEN - 2021/12/24
-* 387 : 曇天 - Roselia×レイヤ - 2022/1/2
 * 388 : グッバイ宣言 - Afterglow×香澄 - 2022/1/1
-* 389 : シル・ヴ・プレジデント - Hello, Happy World!×彩×ましろ - 2021/12/31
 * 390 : ぽっぴん'どりーむ！ - Poppin'Party - 2022/1/1
 * 391 : 星の約束 - Poppin'Party - 2022/1/8
 * 392 : ハッピー☆マテリアル - Hello, Happy World! - 2022/1/11
 * 393 : 現るっ！大怪盗ハロハッピー！ - Hello, Happy World! - 2022/1/21
 * 394 : Listen!! - Afterglow - 2022/1/31
-* 395 : Sparkling Daydream - Pastel*Palettes - 2022/3/18
-* 396 : Brand new Pastel Road！ - Pastel*Palettes - 2022/3/18
 * 397 : Just Awake - RAISE A SUILEN - 2022/2/7
 * 399 : Repaint - RAISE A SUILEN - 2022/2/14
 * 400 : CATASTROPHE BANQUET - レイヤ×紗夜×沙綾×ミッシェル×瑠唯 - 2022/2/19
@@ -355,11 +340,9 @@
 * 417 : Light a fire - RAISE A SUILEN - 2022/4/27
 * 418 : 青空のラプソディ - Morfonica×fhána - 2022/4/28
 * 419 : 秘密の扉から会いにきて - Pastel*Palettes - 2022/4/30
-* 420 : あこがれacross - Pastel*Palettes - 2022/5/3
 * 421 : おもいやりハーモニー - Hello, Happy World! - 2022/5/11
 * 422 : Cry Baby - RAISE A SUILEN - 2022/5/21
 * 423 : トーキョーワンダー。 - Afterglow - 2022/5/21
-* 424 : ハレハレ☆フォーチュン - Pastel*Palettes - 2022/5/31
 * 425 : SWITCH ON NOW - Afterglow - 2022/6/18
 * 426 : メギツネ - RAISE A SUILEN - 2022/6/19
 * 427 : ボクノート - Morfonica - 2022/6/20
@@ -395,9 +378,7 @@
 * 459 : VORACITY - RAISE A SUILEN×MYTH & ROID - 2022/11/30
 * 460 : えがお、あーゆーれでぃ??? - Hello, Happy World! - 2022/12/21
 * 461 : スターナイトスノウ - Poppin'Party - 2022/12/24
-* 462 : シル・ヴ・プレジデント - Hello, Happy World!×P丸様。 - 2022/12/30
 * 463 : もってけ！セーラーふく - Hello, Happy World!×香澄×有咲×イヴ - 2022/12/31
-* 464 : 乙女はサイコパス - Poppin'Party×P丸様。 - 2022/12/31
 * 465 : 群青 - Morfonica×友希那 - 2023/1/1
 * 466 : フォニイ - Afterglow×96猫 - 2023/1/1
 * 467 : 閃光 - Afterglow×レイヤ - 2023/1/2
