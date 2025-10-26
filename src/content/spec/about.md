@@ -18,8 +18,6 @@
 格式为 songId : musicTitle - bandName - 游戏内发布日期
 
 * 44 : そばかす - Pastel*Palettes - 2017/4/10
-* 46 : Little Busters! - Poppin'Party - 2017/4/24
-* 47 : キミにもらったもの - Poppin'Party - 2017/4/21
 * 49 : 天体観測 - Afterglow×香澄 - 2017/5/2
 * 50 : MOON PRIDE - Pastel*Palettes - 2017/5/23
 * 51 : どきどきSING OUT! - 戸山香澄 - 2017/6/5
@@ -33,12 +31,10 @@
 * 62 : ひまわりの約束 - Hello, Happy World! - 2017/8/12
 * 63 : The Everlasting Guilty Crown - Roselia - 2017/8/18
 * 65 : Hey-day狂騒曲（カプリチオ） - Afterglow - 2017/8/29
-* 67 : only my railgun - Poppin'Party - 2017/8/26
 * 68 : YAPPY！SCHOOL CARNIVAL☆彡 - Hello, Happy World! - 2017/9/24
 * 69 : せかいのっびのびトレジャー！ - Hello, Happy World! - 2017/9/19
 * 71 : Red fraction - Roselia - 2017/9/25
 * 72 : はなまるぴっぴはよいこだけ - Pastel*Palettes - 2017/9/30
-* 73 : Time Lapse - Poppin'Party - 2017/9/10
 * 75 : －HEROIC ADVENT－ - Roselia - 2017/10/8
 * 76 : Determination Symphony - Roselia - 2017/10/18
 * 77 : ロメオ - Hello, Happy World! - 2017/10/20
@@ -60,7 +56,6 @@
 * 95 : CiRCLING - Poppin'Party - 2018/1/10
 * 96 : ONENESS - Roselia - 2018/1/13
 * 97 : Opera of the wasteland - Roselia - 2018/1/22
-* 100 : メランコリック - Poppin'Party - 2018/1/31
 * 101 : SAKURAスキップ - Pastel*Palettes - 2018/2/17
 * 105 : Shangri-La - Roselia - 2018/2/23
 * 106 : Wonderland Girl - Pastel*Palettes - 2018/2/19
@@ -71,14 +66,10 @@
 * 111 : 軌跡 - Roselia - 2018/3/31
 * 112 : Light Delight - Poppin'Party - 2018/4/21
 * 113 : Jamboree!Journey! - Afterglow - 2018/3/21
-* 115 : 私の心はチョココロネ - Poppin'Party - 2018/4/23
 * 116 : 気まぐれロマンティック - Pastel*Palettes - 2018/5/3
 * 117 : イマジネーション - Afterglow - 2018/5/10
-* 118 : Neo-Aspect - Roselia - 2018/5/21
 * 119 : Legendary - Roselia - 2018/5/26
-* 120 : DAYS - Poppin'Party - 2018/6/30
 * 121 : COMIC PANIC!!! - Afterglow - 2018/8/3
-* 122 : 二重の虹(ダブル レインボウ) - Poppin'Party - 2018/4/30
 * 123 : ふわふわ☆ゆめいろサンドイッチ - Hello, Happy World! - 2018/4/20
 * 124 : みくみくにしてあげる♪【してやんよ】 - Pastel*Palettes - 2018/4/25
 * 126 : Believe in my existence - Roselia - 2018/5/5
