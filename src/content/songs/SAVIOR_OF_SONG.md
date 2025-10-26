@@ -1,8 +1,8 @@
 ---
 title: SAVIOR OF SONG
 published: 2021-02-24
-tags: [Roselia, RAISE A SUILEN, Cover, Nicokara, Lyrics]
-category: Others
+tags: [Roselia, RAISE A SUILEN, Nicokara, Lyrics]
+category: Cover
 band: RAISE A SUILEN×友希那
 lyrics: |
   <define show <ykn> = <span style="color:#881188">>

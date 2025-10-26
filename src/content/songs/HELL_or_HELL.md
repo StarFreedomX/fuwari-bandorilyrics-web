@@ -1,9 +1,9 @@
 ---
 title: HELL! or HELL?
 published: 2020-01-22
-tags: [RAISE A SUILEN, Original, Nicokara]
+tags: [RAISE A SUILEN, Nicokara]
 band: RAISE A SUILEN
-category: RAISE A SUILEN
+category: Original
 lyrics: |
 ---
 hoh,新手教程,地狱,绯玛丽,请选择

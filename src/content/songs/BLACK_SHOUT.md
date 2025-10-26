@@ -1,9 +1,9 @@
 ---
 title: BLACK SHOUT
 published: 2017-04-19
-tags: [Roselia, Original, Nicokara]
+tags: [Roselia, Nicokara]
 band: Roselia
-category: Roselia
+category: Original
 lyrics: |
 ---
 黑吼,黑叫,nasu,BLACK SHORT

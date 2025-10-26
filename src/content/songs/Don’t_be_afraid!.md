@@ -1,9 +1,9 @@
 ---
 title: Don’t be afraid!
 published: 2017-04-26
-tags: [Glitter*Green, Original, Nicokara, S-Nicokara]
+tags: [Glitter*Green, Nicokara, S-Nicokara]
 band: Glitter*Green
-category: Others
+category: Original
 lyrics: |
 ---
 别怕,我们遇到什么困难也不要怕,别怂

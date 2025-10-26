@@ -1,9 +1,9 @@
 ---
 title: Tomorrow’s Door
 published: 2025-02-26
-tags: [Poppin'Party, Original, Nicokara]
+tags: [Poppin'Party, Nicokara]
 band: Poppin'Party
-category: Poppin'Party
+category: Original
 lyrics: |
 ---
 十周年,明日之门,明日门

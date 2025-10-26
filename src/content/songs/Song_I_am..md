@@ -1,9 +1,9 @@
 ---
 title: Song I am.
 published: 2020-07-15
-tags: [Roselia, Original, Nicokara]
+tags: [Roselia, Nicokara]
 band: Roselia
-category: Roselia
+category: Original
 lyrics: |
 ---
 我是宋,歌是我,我是歌,歌我是,sia,我就是歌姬吧

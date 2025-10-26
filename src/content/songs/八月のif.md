@@ -1,9 +1,9 @@
 ---
 title: 八月のif
 published: 2017-09-20
-tags: [Poppin'Party, Original, Nicokara]
+tags: [Poppin'Party, Nicokara]
 band: Poppin'Party
-category: Poppin'Party
+category: Original
 lyrics: |
 ---
 八月的伊芙,八月的if,八月

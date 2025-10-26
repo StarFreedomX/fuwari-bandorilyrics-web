@@ -1,8 +1,8 @@
 ---
 title: ETERNAL BLAZE
 published: 2018-06-27
-tags: [Roselia, Cover, O-Nicokara]
-category: Roselia
+tags: [Roselia, O-Nicokara]
+category: Cover
 band: Roselia
 lyrics: |
 ---

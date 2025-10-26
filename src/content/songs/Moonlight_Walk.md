@@ -1,9 +1,9 @@
 ---
 title: Moonlight Walk
 published: 2021-08-18
-tags: [Poppin'Party, Original, Nicokara]
+tags: [Poppin'Party, Nicokara]
 band: Poppin'Party
-category: Poppin'Party
+category: Original
 lyrics: |
 ---
 进化之实,踏上胜利的人生,月光行

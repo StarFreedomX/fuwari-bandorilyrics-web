@@ -1,8 +1,8 @@
 ---
 title: Don’t say “lazy”
 published: 2021-11-10
-tags: [Poppin'Party, Cover, O-Nicokara]
-category: Poppin'Party
+tags: [Poppin'Party, O-Nicokara]
+category: Cover
 band: Poppin'Party
 lyrics: |
 ---

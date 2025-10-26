@@ -1,9 +1,9 @@
 ---
 title: 夢みるSunflower
 published: 2017-05-10
-tags: [Poppin'Party, Original, Nicokara]
+tags: [Poppin'Party, Nicokara]
 band: Poppin'Party
-category: Poppin'Party
+category: Original
 lyrics: |
 ---
 太阳花,sunflower

@@ -1,9 +1,9 @@
 ---
 title: Ave Mujica
 published: 2023-09-13
-tags: [Ave Mujica, Original, Nicokara]
+tags: [Ave Mujica, Nicokara]
 band: Ave Mujica
-category: Ave Mujica
+category: Original
 lyrics: |
 ---
 母鸡卡

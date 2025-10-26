@@ -1,9 +1,9 @@
 ---
 title: LOUDER
 published: 2017-04-19
-tags: [Roselia, Original, Nicokara]
+tags: [Roselia, Nicokara]
 band: Roselia
-category: Roselia
+category: Original
 lyrics: |
 ---
 老大,大声点,鬼屋,大点声,牢大

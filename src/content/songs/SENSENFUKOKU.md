@@ -1,9 +1,9 @@
 ---
 title: SENSENFUKOKU
 published: 2021-03-24
-tags: [Afterglow, Original, Nicokara]
+tags: [Afterglow, Nicokara]
 band: Afterglow
-category: Afterglow
+category: Original
 lyrics: |
 ---
 宣战布告,下午好,ssfkk

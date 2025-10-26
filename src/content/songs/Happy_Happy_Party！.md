@@ -1,9 +1,9 @@
 ---
 title: Happy Happy Party！
 published: 2017-02-15
-tags: [Poppin'Party, Original, Nicokara]
+tags: [Poppin'Party, Nicokara]
 band: Poppin'Party
-category: Poppin'Party
+category: Original
 lyrics: |
 ---
 哈皮哈皮爬梯,ykn听了都说好,憨批,hhp

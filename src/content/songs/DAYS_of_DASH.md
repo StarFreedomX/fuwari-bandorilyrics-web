@@ -1,9 +1,9 @@
 ---
 title: DAYS of DASH
 published: 2023-09-06
-tags: [Poppin'Party, Extra, Nicokara]
+tags: [Poppin'Party, Nicokara]
 band: Poppin'Party×鈴木このみ
-category: Others
+category: Extra
 lyrics: |
 ---
 每天都冲,dod,樱花庄,铃木

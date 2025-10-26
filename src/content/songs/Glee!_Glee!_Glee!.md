@@ -1,9 +1,9 @@
 ---
 title: Glee! Glee! Glee!
 published: 2017-04-26
-tags: [Glitter*Green, Original, Nicokara]
+tags: [Glitter*Green, Nicokara]
 band: Glitter*Green
-category: Others
+category: Original
 lyrics: |
 ---
 格里,格力,格立,格利,ggg

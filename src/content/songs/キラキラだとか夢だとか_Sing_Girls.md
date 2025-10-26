@@ -1,9 +1,9 @@
 ---
 title: キラキラだとか夢だとか ～Sing Girls～
 published: 2017-02-15
-tags: [Poppin'Party, Original, Nicokara]
+tags: [Poppin'Party, Nicokara]
 band: Poppin'Party
-category: Poppin'Party
+category: Original
 lyrics: |
 ---
 krkr,信鸽

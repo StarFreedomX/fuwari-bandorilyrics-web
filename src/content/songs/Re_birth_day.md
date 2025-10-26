@@ -1,9 +1,9 @@
 ---
 title: Re:birth day
 published: 2017-06-28
-tags: [Roselia, Original, Nicokara]
+tags: [Roselia, Nicokara]
 band: Roselia
-category: Roselia
+category: Original
 lyrics: |
 ---
 重生日,投胎日,rbd,群友下午好

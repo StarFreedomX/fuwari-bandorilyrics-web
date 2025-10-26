@@ -1,9 +1,9 @@
 ---
 title: 競宴Red×Violet
 published: 2021-08-25
-tags: [Roselia, Afterglow, Original, Nicokara]
+tags: [Roselia, Afterglow, Nicokara]
 band: Roselia×Afterglow
-category: Others
+category: Original
 lyrics: |
 ---
 竞宴,喜宴,囍宴,婚后高歌曲,对山歌,山歌,美竹兰你就是个（）,美竹兰你就是个()

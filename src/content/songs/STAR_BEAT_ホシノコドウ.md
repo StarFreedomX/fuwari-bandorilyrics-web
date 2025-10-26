@@ -1,8 +1,8 @@
 ---
 title: STAR BEAT!〜ホシノコドウ〜
 published: 2016-08-03
-tags: [Poppin'Party, Original, Nicokara]
-category: Poppin'Party
+tags: [Poppin'Party, Nicokara]
+category: Original
 band: Poppin'Party
 lyrics: |
 ---

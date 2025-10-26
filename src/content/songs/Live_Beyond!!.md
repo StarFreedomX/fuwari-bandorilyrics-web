@@ -1,9 +1,9 @@
 ---
 title: Live Beyond!!
 published: 2021-08-18
-tags: [Poppin'Party, Original, Nicokara]
+tags: [Poppin'Party, Nicokara]
 band: Poppin'Party
-category: Poppin'Party
+category: Original
 lyrics: |
 ---
 ppp3章,lb

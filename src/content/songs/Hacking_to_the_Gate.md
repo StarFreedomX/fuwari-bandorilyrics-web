@@ -1,8 +1,8 @@
 ---
 title: Hacking to the Gate
 published: 2016-05-01
-tags: [Roselia, Cover, Nicokara]
-category: Roselia
+tags: [Roselia, Nicokara]
+category: Cover
 band: Roselia
 lyrics: |
 ---

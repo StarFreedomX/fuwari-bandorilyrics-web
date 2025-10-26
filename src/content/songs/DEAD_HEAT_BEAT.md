@@ -1,9 +1,9 @@
 ---
 title: DEAD HEAT BEAT
 published: 2022-11-30
-tags: [RAISE A SUILEN, Original, Nicokara]
+tags: [RAISE A SUILEN, Nicokara]
 band: RAISE A SUILEN
-category: RAISE A SUILEN
+category: Original
 lyrics: |
 ---
 dhb,热死病,sing a song what you sing,大红包

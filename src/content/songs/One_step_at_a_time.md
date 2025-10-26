@@ -1,9 +1,9 @@
 ---
 title: One step at a time
 published: 2022-09-14
-tags: [Morfonica, Original, Nicokara]
+tags: [Morfonica, Nicokara]
 band: Morfonica
-category: Morfonica
+category: Original
 lyrics: |
 ---
 五蝶进窗

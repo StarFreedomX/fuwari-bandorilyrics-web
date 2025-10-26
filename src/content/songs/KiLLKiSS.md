@@ -1,9 +1,9 @@
 ---
 title: KiLLKiSS
 published: 2025-01-08
-tags: [Ave Mujica, Original, Nicokara]
+tags: [Ave Mujica, Nicokara]
 band: Ave Mujica
-category: Ave Mujica
+category: Original
 lyrics: |
 ---
 kk

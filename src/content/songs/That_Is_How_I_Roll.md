@@ -1,9 +1,9 @@
 ---
 title: That Is How I Roll!
 published: 2017-09-06
-tags: [Afterglow, Original]
+tags: [Afterglow]
 band: Afterglow
-category: Afterglow
+category: Original
 lyrics: |
 ---
 我就是那样滚的,tihir,这就是我怎样滚的

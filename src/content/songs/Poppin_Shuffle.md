@@ -1,8 +1,8 @@
 ---
 title: ぽっぴん’しゃっふる
 published: 2016-02-24
-tags: [Poppin'Party, Original, Nicokara, Lyrics]
-category: Poppin'Party
+tags: [Poppin'Party, Nicokara, Lyrics]
+category: Original
 band: Poppin'Party
 lyrics: |
   <define <ppp> = <span style="color:#FF3377; text-shadow:0 0 0px #000;">>

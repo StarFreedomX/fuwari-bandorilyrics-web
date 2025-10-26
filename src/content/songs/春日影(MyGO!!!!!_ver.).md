@@ -1,9 +1,9 @@
 ---
 title: 春日影(MyGO!!!!! ver.)
 published: 2023-11-01
-tags: [MyGO!!!!!, Original, Nicokara]
+tags: [MyGO!!!!!, Nicokara]
 band: MyGO!!!!!
-category: MyGO!!!!!
+category: Original
 lyrics: |
 ---
 cry, 为什么要演奏

@@ -1,9 +1,9 @@
 ---
 title: 天下トーイツA to Z☆
 published: 2019-02-20
-tags: [Pastel*Palettes, Original, Nicokara]
+tags: [Pastel*Palettes, Nicokara]
 band: Pastel*Palettes
-category: Pastel*Palettes
+category: Original
 lyrics: |
 ---
 atz,a2z,阿三风,你行八行,武士道,天下统一

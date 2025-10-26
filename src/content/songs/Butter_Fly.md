@@ -1,8 +1,8 @@
 ---
 title: Butter-Fly
 published: 2016-05-01
-tags: [Afterglow, Cover, Short Ver, O-Nicokara]
-category: Afterglow
+tags: [Afterglow, Short Ver, O-Nicokara]
+category: Cover
 band: Afterglow
 lyrics: |
 ---
