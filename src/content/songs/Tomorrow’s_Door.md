@@ -1,11 +1,11 @@
 ---
 title: Tomorrow’s Door
 published: 2025-02-26
-tags: [Poppin'Party, Nicokara]
+tags: [Poppin'Party, Nicokara, lyrics]
 band: Poppin'Party
 category: Original
 lyrics: |
-  <define <ppp> = <span class="colorful">>
+  <define <ppp> = <span class="colorful" style="--colors:#ff6699, #ffcc33, #33ccff, #9966ff;">>
   <define <ksm> = <span style="color:#FF5522;">>
   <ppp>{耳|みみ}を{澄|す}ましたら　{今|いま}でも
   ときめきの{季|き}{節|せつ}のメロディ

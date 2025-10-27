@@ -34,10 +34,13 @@ export function tranRuby(input: string): string {
 		.replace(delTime, "")
 		.replace("　", " ")
 		.trim();
-	output = output.replace(
+
+	/*output = output.replace(
 		/\{([^|{}]+)\|([^|{}]+)\}/g,
 		"<ruby>$1<rt>$2</rt></ruby>",
-	);
+	);*/
+	output = convertMultiline(output);
+	// console.log(output, "\n-------------------\n");
 
 	// 自定义标签替换
 	for (const [tag, html] of defines.entries()) {
@@ -47,14 +50,6 @@ export function tranRuby(input: string): string {
 		output = output.replace(openTag, html).replace(closeTag, htmlEndTag);
 	}
 
-	output = output.replace(
-		/<([a-zA-Z][\w-]*)([^>]*)>([\s\S]*?)<\/\1>/g,
-		(_, tagName, attrs, innerText) => {
-			// 去掉首尾的空格和换行
-			const cleaned = innerText.replace(/^[\s\r\n]+|[\s\r\n]+$/g, "");
-			return `<${tagName}${attrs}>${cleaned}</${tagName}>`;
-		},
-	);
 	// 假设 output 是宏展开后包含 <style> 的字符串
 	const styleRegex = /<style[\s\S]*?<\/style>/gi;
 
@@ -63,46 +58,100 @@ export function tranRuby(input: string): string {
 	output = output.replace(styleRegex, "");
 
 	// 清理正文首尾空白、标签间多余空白、连续空行
-	output = output.replace(/^\s+|\s+$/g, ""); /*.replace(
-		/<([a-zA-Z][\w-]*)([^>]*)>([\s\S]*?)<\/\1>/g,
-		(_, tagName, attrs, innerText) => {
-			// 去掉首尾的空格和换行
-			const cleaned = innerText.replace(/^[\s\r\n]+|[\s\r\n]+$/g, "");
-			return `<${tagName}${attrs}>${cleaned}</${tagName}>`;
-		},
-	)*/ // 去掉最外侧首尾空白;
+	output = output.replace(/^\s+|\s+$/g, "");
 
-	return `${pre_style}${styles}<div class="colorful-page" style="white-space: pre-wrap; margin:0;">${
+	return `${preCss}${styles}<div class="lyrics" style="white-space: pre-wrap; margin:0;">${
 		header.length ? `${header.join("  ")}<br><br>` : ""
 	}${output}</div>`;
 	//return `<br><div style="white-space: pre-wrap;">${header.length ? `${header.join("  ")}<br><br>` : ""}${output}</div><br>`;
 }
 
-const pre_style = `
+const preCss = `
 <style>
-    .colorful-page {
-      display: inline-block; /* 关键：保证整个容器是同一个渐变上下文 */
-      background: linear-gradient(90deg, #ff3377, #ffcc33, #33ffcc, #3377ff);
-      -webkit-background-clip: text;
-      white-space: pre-wrap;
+	.lyrics rt {
+        font-size: 0.75em;
     }
+    .lyrics ruby, .lyrics rb, .lyrics rt {
+        background: inherit
+    }
+    .lyrics .hide-rt {
+    	visibility:hidden;
+        font-size: 1.333em
+    }
+    .lyrics .colorful {
+    	--turn: left;
+        background:-webkit-linear-gradient(var(--turn),var(--colors));
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        -webkit-box-decoration-break:clone;
+    }
+	.lyrics .colorful::selection,
+	.lyrics .colorful *::selection {
+	    background: rgba(255, 255, 255, 0.2); /* 半透明选中背景 */
+	}
 
+</style>
+`;
 
-    .colorful {
-        -webkit-text-fill-color: transparent;
-        color: transparent; 
-      }
-    
-      /* ruby 和 rt 继承渐变 */
-      .colorful ruby,
-      .colorful rt,
-      .colorful rb {
-        -webkit-text-fill-color: transparent;
-        color: transparent;
-      }
-  
-      .colorful::selection,
-      .colorful *::selection {
-        background: rgba(255, 255, 255, 0.2); /* 半透明选中背景 */
-      }
-  </style>`;
+export function convertRubyInline(line: string): string {
+	// 把标签当成切断点
+	const tagRegex = /(<\/?\w+[^>]*>)/g;
+	const parts = line.split(tagRegex).filter((p) => p.length > 0);
+
+	// 存储处理后的文本
+	const converted: string[] = [];
+
+	for (const part of parts) {
+		if (part.match(/^<\/?\w/)) {
+			// 是标签，不处理
+			converted.push(part);
+			continue;
+		}
+
+		// 非标签内容，处理 {漢字|かな}
+		const rubyRegex = /\{([^|{}]+)\|([^|{}]+)\}/g;
+		let hasRuby = false;
+		let result = "";
+		let rt = "";
+		let lastIndex = 0;
+
+		for (const match of part.matchAll(rubyRegex)) {
+			hasRuby = true;
+			const [raw, kanji, kana] = match;
+			const index = match.index ?? 0;
+
+			const plain = part.slice(lastIndex, index);
+			result += plain;
+			rt += `<span class="hide-rt">${plain}</span>`;
+
+			const ml = (0.75 * kana.length - kanji.length) / 2;
+
+			if (ml >= 0) {
+				result += `<span style="margin-left:${ml.toFixed(3)}em;letter-spacing:${ml.toFixed(3)}em">${kanji}</span>`;
+				rt += kana;
+			} else {
+				result += kanji;
+				rt += `<span style="margin-left:${(-ml).toFixed(3)}em;letter-spacing:${(-ml).toFixed(3)}em">${kana}</span>`;
+			}
+
+			lastIndex = index + raw.length;
+		}
+
+		const tail = part.slice(lastIndex);
+		result += tail;
+		rt += `<span class="hide-rt">${tail}</span>`;
+
+		if (hasRuby) {
+			converted.push(`<ruby>${result}<rt><span>${rt}</span></rt></ruby>`);
+		} else {
+			converted.push(part);
+		}
+	}
+
+	return converted.join("");
+}
+
+export function convertMultiline(text: string) {
+	const lines = text.split(/\r?\n/);
+	return lines.map((l) => convertRubyInline(l)).join("\n");
+}
