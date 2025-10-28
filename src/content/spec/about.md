@@ -277,8 +277,6 @@
 * 345 : ヒューマノイド - Afterglow - 2021/6/30
 * 346 : Sprechchor - Roselia - 2021/7/11
 * 347 : Secret Dawn - Morfonica - 2021/7/21
-* 348 : 灼熱 Bonfire! - RAISE A SUILEN - 2021/7/31
-* 349 : ここから先は歌にならない - Poppin'Party - 2021/7/3
 * 350 : Singing “OURS” - Roselia - 2021/7/4
 * 352 : COLORFUL BOX - Morfonica - 2021/8/20
 * 356 : Trouble Joyful!! - Afterglow - 2021/8/31

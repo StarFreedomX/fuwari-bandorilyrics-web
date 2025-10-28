@@ -109,13 +109,19 @@ lyrics: | <--这个竖线是yaml多行字符串的标记，从下一行开始为
 ```
 ＋+|\[\d+(?:\|\d{2}:\d{2}:\d{2,})?\]|\[\d{2}:\d{2}:\d{2,}\]
 ```
-#### 样式标注
+#### 歌词样式标注
 ```html
 //若先前定义了宏样式，可以直接使用宏
 <ksm>さあ、{飛|と}びだそう！{明日|あした}のドア ノックして</ksm>
 
 //也可以直接使用HTML标签进行样式标注
 <span style="color:#FF3377;">Yes！ BanG_Dream！</span>
+```
+关于复杂的样式标注，我们已经写好了一些预设样式
+```html
+/*渐变颜色*/
+<span class="colorful" style="--l_colors:#ff6699, #ffcc33, #33ccff, #9966ff;"></span>
+<span class="colorful" style="--l_turn:top;--l_colors:#ff6699, #ffcc33, #33ccff, #9966ff;"></span>
 ```
    
 ## 正文部分格式

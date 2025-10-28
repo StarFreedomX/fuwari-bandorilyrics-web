@@ -79,8 +79,7 @@ const preCss = `
         font-size: 1.333em
     }
     .lyrics .colorful {
-    	--turn: left;
-        background:-webkit-linear-gradient(var(--turn),var(--colors));
+        background:-webkit-linear-gradient(var(--l_turn,left),var(--l_colors));
         -webkit-background-clip:text;
         -webkit-text-fill-color:transparent;
         -webkit-box-decoration-break:clone;
