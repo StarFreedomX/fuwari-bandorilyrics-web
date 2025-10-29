@@ -75,7 +75,7 @@ const preCss = `
         background: inherit
     }
     .lyrics .hide-rt {
-    	/*visibility:hidden;*/
+    	visibility:hidden;
         font-size: 1.333em
     }
     .lyrics .colorful {
