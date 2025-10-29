@@ -75,7 +75,7 @@ const preCss = `
         background: inherit
     }
     .lyrics .hide-rt {
-    	visibility:hidden;
+    	/*visibility:hidden;*/
         font-size: 1.333em
     }
     .lyrics .colorful {
@@ -123,7 +123,8 @@ export function convertRubyInline(line: string): string {
 			result += plain;
 			rt += `<span class="hide-rt">${plain}</span>`;
 
-			const ml = (0.75 * kana.length - kanji.length) / 2;
+			const ml = (0.75 * kana.length - kanji.length) / (kanji.length + 1);
+			// console.log({kana, kanji, ml})
 
 			if (ml >= 0) {
 				result += `<span style="margin-left:${ml.toFixed(3)}em;letter-spacing:${ml.toFixed(3)}em">${kanji}</span>`;
