@@ -17,8 +17,6 @@
 下面列出了暂未编写条目的歌曲列表  
 格式为 songId : musicTitle - bandName - 游戏内发布日期
 
-* 44 : そばかす - Pastel*Palettes - 2017/4/10
-* 49 : 天体観測 - Afterglow×香澄 - 2017/5/2
 * 50 : MOON PRIDE - Pastel*Palettes - 2017/5/23
 * 51 : どきどきSING OUT! - 戸山香澄 - 2017/6/5
 * 52 : ハッピーサマーウェディング - Hello, Happy World! - 2017/6/10
@@ -39,12 +37,10 @@
 * 76 : Determination Symphony - Roselia - 2017/10/18
 * 77 : ロメオ - Hello, Happy World! - 2017/10/20
 * 78 : READY STEADY GO - Afterglow - 2017/10/27
-* 81 : 千本桜 - Poppin'Party - 2017/11/19
 * 82 : 恋は渾沌の隷也 - Hello, Happy World! - 2017/11/21
 * 83 : プライド革命 - Afterglow - 2018/1/24
 * 84 : 深愛 - Roselia - 2017/12/18
 * 85 : ハッピーシンセサイザ - Pastel*Palettes - 2017/12/30
-* 86 : 君じゃなきゃダメみたい - Poppin'Party - 2018/1/3
 * 87 : 残酷な天使のテーゼ - Roselia - 2018/1/1
 * 88 : Dragon Night - Hello, Happy World! - 2017/12/31
 * 89 : Redo - Afterglow - 2018/1/2

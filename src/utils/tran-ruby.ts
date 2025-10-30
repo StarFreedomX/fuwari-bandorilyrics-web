@@ -35,12 +35,7 @@ export function tranRuby(input: string): string {
 		.replace("　", " ")
 		.trim();
 
-	/*output = output.replace(
-		/\{([^|{}]+)\|([^|{}]+)\}/g,
-		"<ruby>$1<rt>$2</rt></ruby>",
-	);*/
 	output = convertMultiline(output);
-	// console.log(output, "\n-------------------\n");
 
 	// 自定义标签替换
 	for (const [tag, html] of defines.entries()) {
@@ -63,7 +58,6 @@ export function tranRuby(input: string): string {
 	return `${preCss}${styles}<div class="lyrics" style="white-space: pre-wrap; margin:0;">${
 		header.length ? `${header.join("  ")}<br><br>` : ""
 	}${output}</div>`;
-	//return `<br><div style="white-space: pre-wrap;">${header.length ? `${header.join("  ")}<br><br>` : ""}${output}</div><br>`;
 }
 
 const preCss = `
@@ -72,7 +66,7 @@ const preCss = `
         font-size: 0.75em;
     }
     .lyrics ruby, .lyrics rb, .lyrics rt {
-        background: inherit
+        background: inherit;
     }
     .lyrics .hide-rt {
     	visibility:hidden;
