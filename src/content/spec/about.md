@@ -45,11 +45,8 @@
 * 88 : Dragon Night - Hello, Happy World! - 2017/12/31
 * 89 : Redo - Afterglow - 2018/1/2
 * 90 : クインティプル☆すまいる - GBP!スペシャルバンド - 2018/1/12
-* 91 : クリスマスのうた - Poppin'Party - 2017/11/30
-* 92 : B.O.F - Poppin'Party - 2017/12/6
 * 93 : Y.O.L.O！！！！！ - Afterglow - 2017/12/9
 * 94 : わちゃ・もちゃ・ぺったん行進曲 - Hello, Happy World! - 2017/12/20
-* 95 : CiRCLING - Poppin'Party - 2018/1/10
 * 96 : ONENESS - Roselia - 2018/1/13
 * 97 : Opera of the wasteland - Roselia - 2018/1/22
 * 101 : SAKURAスキップ - Pastel*Palettes - 2018/2/17
@@ -204,7 +201,6 @@
 * 271 : Blessing Chord - Roselia - 2020/5/31
 * 272 : ヒトリノ夜 - RAISE A SUILEN - 2020/6/10
 * 274 : ノスタルジックレインフォール - Pastel*Palettes - 2020/6/20
-* 275 : final phase - Poppin'Party - 2020/6/30
 * 276 : LEVEL5 -judgelight- - Morfonica - 2020/6/30
 * 277 : カサブタ - Afterglow - 2020/7/5
 * 278 : Breakthrough! - Poppin'Party - 2020/6/24
