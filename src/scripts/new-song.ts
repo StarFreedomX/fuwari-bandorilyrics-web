@@ -38,7 +38,7 @@ const bandNames = [
 	"Ave Mujica",
 	"梦限大MewType",
 ];
-/*const bandNicknames = {
+const bandNicknames = {
     "Poppin'Party": [
         "poppin'party",
         "poppin party",
@@ -112,7 +112,8 @@ const bandNames = [
         "蝶团",
         "蝶",
         "m团",
-        "m"
+        "m",
+        "mnk"
     ],
     "MyGO!!!!!": [
         "MyGO!!!!!",
@@ -128,13 +129,15 @@ const bandNames = [
         "母鸡卡",
         "mujica",
         "am",
+        "ji",
         "mjk"
     ],
     "梦限大MewType": [
         "梦",
+        "mew",
         "梦限大"
     ]
-}*/
+}
 const orgFileName = await ask("请输入歌曲文件名: ");
 let fileName = sanitizeFilename(orgFileName);
 const songName = await ask(
@@ -154,7 +157,14 @@ do {
 } while (![0, 1, 2].includes(categoryIndex));
 const category = ["Original", "Cover", "Extra"].at(categoryIndex);
 const nicknames = await ask("请输入歌曲别名: ");
-const band = await ask("请输入歌曲乐队名: ");
+const bandInput = await ask("请输入歌曲乐队名: ");
+let band = bandInput;
+Object.values(bandNicknames).forEach((bandItem, index) => {
+	if (bandItem.some(nn=>nn===bandInput)) {
+		band = Object.keys(bandNicknames).at(index) || band
+	}
+})
+console.log("--> ",band);
 const isNormalBand = bandNames.includes(band);
 let bandTag = band.includes(",") ? `"${band}"` : band;
 if (!isNormalBand) {
