@@ -39,105 +39,90 @@ const bandNames = [
 	"梦限大MewType",
 ];
 const bandNicknames = {
-    "Poppin'Party": [
-        "poppin'party",
-        "poppin party",
-        "ppp",
-        "破琵琶",
-        "popipa",
-        "poppin",
-        "poppinparty",
-        "ポピパ",
-        "歩品破茶"
-    ],
-    "Afterglow": [
-        "afterglow",
-        "ag",
-        "夕阳红",
-        "悪蓋愚狼"
-    ],
-    "Roselia": [
-        "roselia",
-        "r",
-        "r组",
-        "ロゼリア",
-        "相声团",
-        "相声组",
-        "露世裏悪",
-        "露世里恶",
-        "萝"
-    ],
-    "Hello, Happy World!": [
-        "ハロー、ハッピーワールド！",
-        "hello, happy world!",
-        "hello，happy world！",
-        "hello, happy world！",
-        "hello,happyworld",
-        "hhw",
-        "harohapi",
-        "ハロハピ",
-        "破狼法被威悪怒",
-        "儿歌团",
-        "好好玩"
-    ],
-    "Pastel*Palettes": [
-        "pastel＊palettes",
-        "pastel*palettes",
-        "pastelpalettes",
-        "pastel",
-        "palettes",
-        "pasupare",
-        "pp",
-        "パスパレ",
-        "破巣照破烈斗",
-        "怕死怕累"
-    ],
-    "RAISE A SUILEN": [
-        "raiseasuilen",
-        "raise",
-        "suilen",
-        "ras",
-        "ラス",
-        "零図悪酔恋",
-        "睡莲",
-        "麗厨唖睡蓮",
-        "睡蓮"
-    ],
-    "Morfonica": [
-        "morfonica",
-        "毛二力",
-        "monika",
-        "monica",
-        "モニカ",
-        "蝶团",
-        "蝶",
-        "m团",
-        "m",
-        "mnk"
-    ],
-    "MyGO!!!!!": [
-        "MyGO!!!!!",
-        "MyGO！！！！！",
-        "mygo",
-        "我去！！！！！",
-        "我去!!!!!",
-        "我去",
-        "卖狗",
-        "go"
-    ],
-    "Ave Mujica": [
-        "母鸡卡",
-        "mujica",
-        "am",
-        "ji",
-        "mjk"
-    ],
-    "梦限大MewType": [
-        "梦",
-        "mew",
-        "梦限大"
-    ]
-}
+	"Poppin'Party": [
+		"poppin'party",
+		"poppin party",
+		"ppp",
+		"破琵琶",
+		"popipa",
+		"poppin",
+		"poppinparty",
+		"ポピパ",
+		"歩品破茶",
+	],
+	Afterglow: ["afterglow", "ag", "夕阳红", "悪蓋愚狼"],
+	Roselia: [
+		"roselia",
+		"r",
+		"r组",
+		"ロゼリア",
+		"相声团",
+		"相声组",
+		"露世裏悪",
+		"露世里恶",
+		"萝",
+	],
+	"Hello, Happy World!": [
+		"ハロー、ハッピーワールド！",
+		"hello, happy world!",
+		"hello，happy world！",
+		"hello, happy world！",
+		"hello,happyworld",
+		"hhw",
+		"harohapi",
+		"ハロハピ",
+		"破狼法被威悪怒",
+		"儿歌团",
+		"好好玩",
+	],
+	"Pastel*Palettes": [
+		"pastel＊palettes",
+		"pastel*palettes",
+		"pastelpalettes",
+		"pastel",
+		"palettes",
+		"pasupare",
+		"pp",
+		"パスパレ",
+		"破巣照破烈斗",
+		"怕死怕累",
+	],
+	"RAISE A SUILEN": [
+		"raiseasuilen",
+		"raise",
+		"suilen",
+		"ras",
+		"ラス",
+		"零図悪酔恋",
+		"睡莲",
+		"麗厨唖睡蓮",
+		"睡蓮",
+	],
+	Morfonica: [
+		"morfonica",
+		"毛二力",
+		"monika",
+		"monica",
+		"モニカ",
+		"蝶团",
+		"蝶",
+		"m团",
+		"m",
+		"mnk",
+	],
+	"MyGO!!!!!": [
+		"MyGO!!!!!",
+		"MyGO！！！！！",
+		"mygo",
+		"我去！！！！！",
+		"我去!!!!!",
+		"我去",
+		"卖狗",
+		"go",
+	],
+	"Ave Mujica": ["母鸡卡", "mujica", "am", "ji", "mjk"],
+	梦限大MewType: ["梦", "mew", "梦限大"],
+};
 const orgFileName = await ask("请输入歌曲文件名: ");
 let fileName = sanitizeFilename(orgFileName);
 const songName = await ask(
@@ -160,11 +145,11 @@ const nicknames = await ask("请输入歌曲别名: ");
 const bandInput = await ask("请输入歌曲乐队名: ");
 let band = bandInput;
 Object.values(bandNicknames).forEach((bandItem, index) => {
-	if (bandItem.some(nn=>nn===bandInput)) {
-		band = Object.keys(bandNicknames).at(index) || band
+	if (bandItem.some((nn) => nn === bandInput)) {
+		band = Object.keys(bandNicknames).at(index) || band;
 	}
-})
-console.log("--> ",band);
+});
+console.log("--> ", band);
 const isNormalBand = bandNames.includes(band);
 let bandTag = band.includes(",") ? `"${band}"` : band;
 if (!isNormalBand) {
