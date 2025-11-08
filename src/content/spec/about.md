@@ -55,9 +55,7 @@
 * 107 : fantastic dreamer - Hello, Happy World! - 2018/2/28
 * 108 : ハレ晴レユカイ - Hello, Happy World!×蘭×彩 - 2018/3/10
 * 109 : This game - Roselia - 2018/3/16
-* 110 : GLAMOROUS SKY - Poppin'Party - 2018/3/18
 * 111 : 軌跡 - Roselia - 2018/3/31
-* 112 : Light Delight - Poppin'Party - 2018/4/21
 * 113 : Jamboree!Journey! - Afterglow - 2018/3/21
 * 116 : 気まぐれロマンティック - Pastel*Palettes - 2018/5/3
 * 117 : イマジネーション - Afterglow - 2018/5/10
@@ -72,15 +70,11 @@
 * 132 : ハイファイブ∞あどべんちゃっ - Hello, Happy World! - 2018/7/10
 * 133 : キミの記憶 - Roselia - 2018/7/20
 * 134 : Reach Out To The Truth - Afterglow - 2018/7/20
-* 135 : Life Will Change - Poppin'Party - 2018/7/20
-* 136 : 夏祭り - Poppin'Party - 2018/7/31
 * 137 : シャルル - Roselia - 2018/8/5
-* 138 : ロミオとシンデレラ - Poppin'Party - 2018/8/26
 * 139 : エイリアンエイリアン - Hello, Happy World! - 2018/8/25
 * 140 : ロストワンの号哭 - Afterglow - 2018/8/24
 * 141 : GO! GO! MANIAC - Hello, Happy World! - 2018/8/18
 * 142 : Sanctuary - Roselia - 2018/8/20
-* 143 : ガールズコード - Poppin'Party - 2018/8/31
 * 144 : ツナグ、ソラモヨウ - Afterglow - 2018/9/10
 * 145 : DISCOTHEQUE - Pastel*Palettes - 2018/9/15
 * 146 : 新宝島 - Hello, Happy World! - 2018/9/28
@@ -88,38 +82,27 @@
 * 148 : ゼッタイ宣言～Recital～ - Pastel*Palettes - 2018/9/30
 * 149 : R - Roselia - 2018/10/5
 * 150 : キミがいなくちゃっ！ - Hello, Happy World! - 2018/10/10
-* 151 : 君に届け - Poppin'Party - 2018/10/29
 * 152 : ゆりゆららららゆるゆり大事件 - Pastel*Palettes - 2018/10/31
 * 153 : PASSIONATE ANTHEM - Roselia - 2018/11/10
 * 154 : Crow Song - Afterglow - 2018/11/16
-* 155 : Home Street - Poppin'Party - 2018/11/21
 * 156 : ランブリングメモリー - Afterglow - 2018/11/30
 * 157 : エクストラ・マジック・アワー - Hello, Happy World! - 2018/12/18
-* 158 : キズナミュージック♪ - Poppin'Party - 2018/12/12
 * 159 : BRAVE JEWEL - Roselia - 2018/12/12
 * 160 : R·I·O·T - RAISE A SUILEN - 2018/12/12
 * 161 : ツキアカリのミチシルベ - Roselia - 2018/12/20
 * 162 : 奏（かなで） - Pastel*Palettes - 2018/12/24
 * 163 : 瞬間センチメンタル - Afterglow - 2018/12/30
-* 164 : Wake up! - Poppin'Party - 2018/12/31
 * 165 : 名前のない怪物 - Roselia - 2019/1/1
 * 166 : 回レ！雪月花 - Hello, Happy World! - 2019/1/2
 * 167 : Q＆A　リサイタル！ - Pastel*Palettes - 2019/1/3
 * 168 : Safe and Sound - Roselia - 2019/1/10
 * 169 : ぎゅっDAYS♪ - Pastel*Palettes - 2019/1/19
-* 170 : Jumpin' - Poppin'Party - 2019/1/17
 * 171 : はれやか すこやか ぴかりんりん♪ - Hello, Happy World! - 2019/1/21
 * 172 : らしさ - Afterglow - 2019/1/31
-* 173 : 夜行性ハイズ - Poppin'Party - 2019/2/4
-* 174 : オトモダチフィルム - Poppin'Party - 2019/2/17
 * 175 : Ringing Bloom - Roselia - 2019/2/19
 * 176 : Baby Sweet Berry Love - Pastel*Palettes - 2019/2/28
-* 177 : SAKURA MEMORIES - Poppin'Party - 2019/3/8
 * 178 : 革命デュアリズム - Roselia×蘭 - 2019/3/16
 * 179 : 檄！帝国華撃団 - Poppin'Party×彩×こころ - 2019/3/17
-* 180 : Returns - Poppin'Party - 2019/3/22
-* 181 : NO GIRL NO CRY - Poppin'Party - 2019/3/25
-* 182 : Dreamers Go! - Poppin'Party - 2019/3/29
 * 183 : StaRt - Hello, Happy World! - 2019/3/31
 * 184 : ON YOUR MARK - Afterglow - 2019/4/5
 * 185 : いつも通りのBrand new days - Afterglow - 2019/4/18
